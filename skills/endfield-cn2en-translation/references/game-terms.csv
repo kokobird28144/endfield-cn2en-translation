@@ -1,0 +1,310 @@
+category,zh,en,aliases_zh,item_id,name_id,version,status,notes
+物品与物料,实验息壤铜锭,Proto Xiran-Cuprium,,item_activity_copper_poly,1011525319644256913,1.5.3@10024360-6,game-data-paired,
+物品与物料,实验息壤铜零件,Proto Xiran-Cuprium Part,,item_activity_copper_poly_cmpt,2378524769886981699,1.5.3@10024360-6,game-data-paired,
+物品与物料,实验息壤铜气,Proto Xiran-Cuprium Gas,,item_activity_copper_poly_gas,729032113089216812,1.5.3@10024360-6,game-data-paired,
+物品与物料,实验息壤铜骨骼,Proto Xiran-Cuprium Frame,,item_activity_copper_poly_tool,439141192124501883,1.5.3@10024360-6,game-data-paired,
+物品与物料,实验铜骨骼,Proto Cuprium Frame,,item_activity_copper_xiranite_tool,1473878686222774390,1.5.3@10024360-6,game-data-paired,
+物品与物料,援助成果券,Fruits of Altruism Certs,,item_activity_relief_coupon,-9200183422208333418,1.5.3@10024360-6,game-data-paired,
+物品与物料,实验龙泡泡外壳,Proto Chubby Lung Shell,,item_activity_xiranite_box,4779225336387428033,1.5.3@10024360-6,game-data-paired,
+物品与物料,实验龙泡泡重壳,Proto Chubby Lung Heavy Shell,,item_activity_xiranite_enr_box,-3720557503828415352,1.5.3@10024360-6,game-data-paired,
+物品与物料,重息壤龙泡泡,Heavy Xiranite Chubby Lung,,item_activity_xiranite_enr_lung,1618828290294262017,1.5.3@10024360-6,game-data-paired,
+物品与物料,实验重息壤块,Proto Heavy Xiranite,,item_activity_xiranite_enr_nugget,-7515897368787500258,1.5.3@10024360-6,game-data-paired,
+物品与物料,息壤葫芦,Xiranite Gourd,,item_activity_xiranite_hulu,5705109526810914380,1.5.3@10024360-6,game-data-paired,
+物品与物料,息壤龙泡泡,Xiranite Chubby Lung,,item_activity_xiranite_lung,-7698893631876334618,1.5.3@10024360-6,game-data-paired,
+物品与物料,实验息壤块,Proto Xiranite,,item_activity_xiranite_nugget,4494840906892614275,1.5.3@10024360-6,game-data-paired,
+物品与物料,荞愈胶囊,Buck Capsule [C],,item_bottled_rec_hp_1,-7996397812364656281,1.5.3@10024360-6,game-data-paired,
+物品与物料,优质荞愈胶囊,Buck Capsule [B],,item_bottled_rec_hp_2,-3559160156697802537,1.5.3@10024360-6,game-data-paired,
+物品与物料,精选荞愈胶囊,Buck Capsule [A],,item_bottled_rec_hp_3,6267292786988280477,1.5.3@10024360-6,game-data-paired,
+物品与物料,芽针针剂,Yazhen Syringe [C],蓝药,item_bottled_rec_hp_4,1013991778694932151,1.5.3@10024360-6,game-data-paired,武陵明确配方中的蓝药；小药另有锦草软饮候选，按community-aliases.json选义；不得按颜色推断[B]。
+物品与物料,优质芽针针剂,Yazhen Syringe [A],,item_bottled_rec_hp_5,2523415347924073170,1.5.3@10024360-6,game-data-paired,
+物品与物料,稳定碳块,Stabilized Carbon,,item_carbon_enr,-1808556653885083208,1.5.3@10024360-6,game-data-paired,
+物品与物料,致密碳粉末,Dense Carbon Powder,,item_carbon_enr_powder,-3799528170437145697,1.5.3@10024360-6,game-data-paired,
+物品与物料,碳块,Carbon,,item_carbon_mtl,-5600586269651665598,1.5.3@10024360-6,game-data-paired,
+物品与物料,碳粉末,Carbon Powder,,item_carbon_powder,-7298700731082901302,1.5.3@10024360-6,game-data-paired,
+物品与物料,赤铜瓶,Cuprium Bottle,,item_copper_bottle,1718096769582597963,1.5.3@10024360-6,game-data-paired,
+物品与物料,赤铜零件,Cuprium Part,,item_copper_cmpt,4437966209875086009,1.5.3@10024360-6,game-data-paired,
+物品与物料,赫铜块,Hetonite,,item_copper_enr,-9192255873805571277,1.5.3@10024360-6,game-data-paired,
+物品与物料,灼铜块,Pyrrolite,,item_copper_enr2,-5794163492499913056,1.5.3@10024360-6,game-data-paired,
+物品与物料,灼铜零件,Pyrrolite Part,灼件,item_copper_enr2_cmpt,5835921937935774178,1.5.3@10024360-6,game-data-paired,简称须结合上下文。
+物品与物料,赫铜瓶,Hetonite Bottle,,item_copper_enr_bottle,-2860449190055327922,1.5.3@10024360-6,game-data-paired,
+物品与物料,赫铜零件,Hetonite Part,赫件,item_copper_enr_cmpt,-6734193333373522172,1.5.3@10024360-6,game-data-paired,简称须结合上下文。
+物品与物料,赤铜耐压罐,Cuprium Canister,,item_copper_jar,-9169229963672478740,1.5.3@10024360-6,game-data-paired,
+物品与物料,赤铜块,Cuprium,,item_copper_nugget,6842785141463934801,1.5.3@10024360-6,game-data-paired,
+物品与物料,赤铜矿,Cuprium Ore,,item_copper_ore,-9222228289270372539,1.5.3@10024360-6,game-data-paired,
+物品与物料,赤铜粉末,Cuprium Powder,,item_copper_powder,6688763907840569,1.5.3@10024360-6,game-data-paired,
+物品与物料,密制晶体,Packed Origocrust,,item_crystal_enr,-3309751506230857376,1.5.3@10024360-6,game-data-paired,
+物品与物料,致密晶体粉末,Dense Origocrust Powder,,item_crystal_enr_powder,-6985715085098810954,1.5.3@10024360-6,game-data-paired,
+物品与物料,晶体外壳粉末,Origocrust Powder,,item_crystal_powder,-1476052199689973330,1.5.3@10024360-6,game-data-paired,
+物品与物料,晶体外壳,Origocrust,,item_crystal_shell,1318374701866929698,1.5.3@10024360-6,game-data-paired,
+物品与物料,分离芯,Separator Core,,item_filter_core,-4392791740067638122,1.5.3@10024360-6,game-data-paired,
+物品与物料,酸气,Acridgen,,item_gas_acid,4004743734539463262,1.5.3@10024360-6,game-data-paired,
+物品与物料,气态赤铜,Cuprium Gas,,item_gas_copper,1573317255280512287,1.5.3@10024360-6,game-data-paired,
+物品与物料,气态赫铜,Hetonite Gas,,item_gas_copper_enr,1902877749592415679,1.5.3@10024360-6,game-data-paired,
+物品与物料,气态灼铜,Pyrrolite Gas,,item_gas_copper_enr2,-3753016075497570068,1.5.3@10024360-6,game-data-paired,
+物品与物料,惰气,Inergen,,item_gas_inert,741454187416174719,1.5.3@10024360-6,game-data-paired,
+物品与物料,息壤气,Xiragen,,item_gas_xiranite,-908947061914689522,1.5.3@10024360-6,game-data-paired,
+物品与物料,重息壤气,Heavy Xiragen,,item_gas_xiranite_enr,-1675315955426988367,1.5.3@10024360-6,game-data-paired,
+物品与物料,紫晶零件,Amethyst Part,,item_glass_cmpt,-838525628342432577,1.5.3@10024360-6,game-data-paired,
+物品与物料,蓝铁瓶,Ferrium Bottle,,item_iron_bottle,-8999732008652078003,1.5.3@10024360-6,game-data-paired,
+物品与物料,铁制零件,Ferrium Part,铁零件,item_iron_cmpt,3231317125183590003,1.5.3@10024360-6,game-data-paired,不等同普通 iron parts。
+物品与物料,蓝铁块,Ferrium,,item_iron_nugget,4482565585843345062,1.5.3@10024360-6,game-data-paired,
+物品与物料,蓝铁矿,Ferrium Ore,,item_iron_ore,-554680815829661323,1.5.3@10024360-6,game-data-paired,
+物品与物料,蓝铁粉末,Ferrium Powder,,item_iron_powder,7481152810865844514,1.5.3@10024360-6,game-data-paired,
+物品与物料,沉积酸,Precipitation Acid,,item_liquid_acid,1102650631945772344,1.5.3@10024360-6,game-data-paired,
+物品与物料,赤铜溶液,Cuprium Solution,,item_liquid_copper,6183654321732561973,1.5.3@10024360-6,game-data-paired,
+物品与物料,锦草溶液,Jincao Solution,,item_liquid_plant_grass_1,-5427503457200400107,1.5.3@10024360-6,game-data-paired,
+物品与物料,芽针溶液,Yazhen Solution,,item_liquid_plant_grass_2,-381702251450790404,1.5.3@10024360-6,game-data-paired,
+物品与物料,污水,Sewage,,item_liquid_sewage,-371010618268172463,1.5.3@10024360-6,game-data-paired,
+物品与物料,清水,Clean Water,水,item_liquid_water,-1255834102264005522,1.5.3@10024360-6,game-data-paired,配方中通常指清水，泛称需按上下文。
+物品与物料,液化息壤,Liquid Xiranite,,item_liquid_xiranite,-4648104540045367376,1.5.3@10024360-6,game-data-paired,
+物品与物料,惰性壤晶废液,Inert Xircon Effluent,,item_liquid_xiranite_lowpoly,-4986362889686095669,1.5.3@10024360-6,game-data-paired,
+物品与物料,壤晶废液,Xircon Effluent,废液,item_liquid_xiranite_poly,1615214636262783542,1.5.3@10024360-6,game-data-paired,仅指壤晶废液时；不得吞并 Inert Xircon Effluent。
+物品与物料,致密源石粉末,Dense Originium Powder,,item_originium_enr_powder,-1147745213577265634,1.5.3@10024360-6,game-data-paired,
+物品与物料,源矿,Originium Ore,,item_originium_ore,-5417050067654650578,1.5.3@10024360-6,game-data-paired,
+物品与物料,源石粉末,Originium Powder,,item_originium_powder,-7514907591745826392,1.5.3@10024360-6,game-data-paired,
+物品与物料,锦草,Jincao,,item_plant_grass_1,-6237093157424673683,1.5.3@10024360-6,game-data-paired,
+物品与物料,芽针,Yazhen,,item_plant_grass_2,-764211670691849663,1.5.3@10024360-6,game-data-paired,
+物品与物料,锦草粉末,Jincao Powder,,item_plant_grass_powder_1,7327284991815131155,1.5.3@10024360-6,game-data-paired,
+物品与物料,芽针粉末,Yazhen Powder,,item_plant_grass_powder_2,-7097824642630075673,1.5.3@10024360-6,game-data-paired,
+物品与物料,锦草种子,Jincao Seed,,item_plant_grass_seed_1,6611595127547683165,1.5.3@10024360-6,game-data-paired,
+物品与物料,芽针种子,Yazhen Seeds,,item_plant_grass_seed_2,-482692724538528126,1.5.3@10024360-6,game-data-paired,
+物品与物料,荞花,Buckflower,,item_plant_moss_1,1003658658191640157,1.5.3@10024360-6,game-data-paired,
+物品与物料,砂叶,Sandleaf,,item_plant_moss_3,-8847569985909348640,1.5.3@10024360-6,game-data-paired,
+物品与物料,细磨荞花粉末,Ground Buckflower Powder,,item_plant_moss_enr_powder_1,1109334046366064281,1.5.3@10024360-6,game-data-paired,
+物品与物料,荞花粉末,Buckflower Powder,,item_plant_moss_powder_1,8581497736112857797,1.5.3@10024360-6,game-data-paired,
+物品与物料,砂叶粉末,Sandleaf Powder,,item_plant_moss_powder_3,-5506584291104086344,1.5.3@10024360-6,game-data-paired,
+物品与物料,砂叶种子,Sandleaf Seed,,item_plant_moss_seed_3,7084918386992203960,1.5.3@10024360-6,game-data-paired,
+物品与物料,低容谷地电池,LC Valley Battery,,item_proc_battery_1,594715612363527080,1.5.3@10024360-6,game-data-paired,
+物品与物料,中容谷地电池,SC Valley Battery,,item_proc_battery_2,6479012288310380581,1.5.3@10024360-6,game-data-paired,
+物品与物料,高容谷地电池,HC Valley Battery,,item_proc_battery_3,2537395868760611370,1.5.3@10024360-6,game-data-paired,
+物品与物料,低容武陵电池,LC Wuling Battery,,item_proc_battery_4,-377329690534775792,1.5.3@10024360-6,game-data-paired,
+物品与物料,中容武陵电池,SC Wuling Battery,中电;中融武陵电池,item_proc_battery_5,2838644875020429338,1.5.3@10024360-6,game-data-paired,中电须确认武陵地区；中融疑为笔误。
+物品与物料,紫晶纤维,Amethyst Fiber,,item_quartz_glass,1306891213478550137,1.5.3@10024360-6,game-data-paired,
+物品与物料,紫晶矿,Amethyst Ore,,item_quartz_sand,-3933099068640728245,1.5.3@10024360-6,game-data-paired,
+物品与物料,重息壤,Heavy Xiranite,,item_xiranite_enr_powder,-5799524980358016369,1.5.3@10024360-6,game-data-paired,
+物品与物料,壤晶,Xircon,,item_xiranite_poly,-413707451645566668,1.5.3@10024360-6,game-data-paired,
+物品与物料,息壤,Xiranite,,item_xiranite_powder,-2993525701193037410,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,传送带,Transport Belt,,item_log_belt_01,-1486544973969981330,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,物品准入口,Item Control Port,准入口,item_log_conditioner,8302010020143580787,1.5.3@10024360-6,game-data-paired,固体用；与管道准入口共用简称，必须消歧。
+设施与物流部件,物流桥,Belt Bridge,,item_log_connector,-537318491966737329,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,汇流器,Converger,,item_log_converger,5831934840545782272,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,管道,Pipe,,item_log_pipe_01,-7883206362931174258,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,管道准入口,Pipe Control Port,准入口,item_log_pipe_conditioner,-5263945381859203705,1.5.3@10024360-6,game-data-paired,液体用；与物品准入口共用简称，必须消歧。
+设施与物流部件,管道桥,Pipe Bridge,,item_log_pipe_connector,4486280435856468017,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,管道汇流器,Pipe Converger,,item_log_pipe_converger,-7852256918556999714,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,管道分流器,Pipe Splitter,,item_log_pipe_splitter,8545558265099097613,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,分流器,Splitter,,item_log_splitter,5872340006034245759,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,便捷存取站,Easy Stash,,item_port_carrier_1,-6516284473488352701,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,配件机,Fitting Unit,,item_port_cmpt_mc_1,-6097051622630256080,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,拆解机,Separating Unit,,item_port_dismantler_1,-7471615084220664785,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,给水器,Fluid Supply Unit,,item_port_dumper_1,-6713821979749922814,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,灌装机,Filling Unit,,item_port_filling_pd_mc_1,4843075269036102417,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,精炼炉,Refining Unit,,item_port_furnance_1,-610511413543985075,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,气体收集泵,Gas Extractor,,item_port_gas_pump_1,2056715849018530424,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,气体反应炉,Gas Reactor Globe,,item_port_gas_reactor_1,-6954681033023514816,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,储气罐,Gas Tank,,item_port_gas_storager_1,-5614810658183179745,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,粉碎机,Shredding Unit,,item_port_grinder_1,5854226287756461642,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,废水处理机,Water Treatment Unit,,item_port_liquid_cleaner_1,7710102498608035252,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,提纯机,Purification Unit,,item_port_liquid_purifier_1,7807377794342976744,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,储液罐,Fluid Tank,,item_port_liquid_storager_1,8577760864758677858,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,仓库存货口,Depot Loader,存货口;存入口,item_port_loader_1,-6171050217035206729,1.5.3@10024360-6,game-data-paired,存入仓库；机器口另按 input/output port。
+设施与物流部件,仓库存取线基段,Depot Bus Section,,item_port_log_hongs_bus,-1526025531220904932,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,仓库存取线源桩,Depot Bus Port,,item_port_log_hongs_bus_source,321666033263342621,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,便携源石矿机,Portable Originium Rig,,item_port_miner_1,2122651960983327816,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,电驱矿机,Electric Mining Rig,,item_port_miner_2,4527293521698898690,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,二型电驱矿机,Electric Mining Rig Mk II,,item_port_miner_3,-4418148934476716878,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,水驱矿机,Hydro Mining Rig,,item_port_miner_4,7850275648667665823,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,反应池,Reactor Crucible,,item_port_mix_pool_1,6581026360281462766,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,扩容反应池,Expanded Crucible,,item_port_mix_pool_2,4290274488490955054,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,液气转化机,Fluid-Gas Transmuting Unit,液气机,item_port_phase_trans_1,4699617566351670001,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,固气转化机,Solid-Gas Transmuting Unit,固气机,item_port_phase_trans_2,7739125218758643184,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,种植机,Planting Unit,,item_port_planter_1,615045745769974288,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,供电桩,Electric Pylon,,item_port_power_diffuser_1,-4765302122095746023,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,息壤供电桩,Xiranite Pylon,,item_port_power_diffuser_2,968488948811110833,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,中继器,Relay Tower,,item_port_power_pole_2,8823892469197919012,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,息壤中继器,Xiranite Relay,,item_port_power_pole_3,9002114602472303218,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,供电终端,Electric Nexus,,item_port_power_port_1,-72435429477712272,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,热能池,Thermal Bank,,item_port_power_sta_1,8063208404906308216,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,水泵,Fluid Pump,,item_port_pump_1,-4682771872818037184,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,二型耐酸水泵,Acid Resistant Pump Mk II,,item_port_pump_2,-6618798243108310293,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,采种机,Seed-Picking Unit,,item_port_seedcol_1,-3906118986879572231,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,塑形机,Moulding Unit,,item_port_shaper_1,8052602892457234855,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,协议核心,Protocol Automation-Core (PAC),,item_port_sp_hub_1,-8746808255750701913,1.5.3@10024360-6,game-data-paired,ItemTable 全称；FactoryBuildingTable 同版本显示 Automation-Core。
+设施与物流部件,次级核心,Sub-PAC,,item_port_sp_sub_hub_1,-5899523537922841003,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,协议储存箱,Protocol Stash,储存箱;存储箱;箱子,item_port_storager_1,2974086469168706127,1.5.3@10024360-6,game-data-paired,仅指该设施时；与仓库、机器缓存分开。
+设施与物流部件,研磨机,Grinding Unit,,item_port_thickener_1,-3484461437250527901,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,封装机,Packaging Unit,,item_port_tools_asm_mc_1,-7931605342811332075,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,暗管入口,Conduit Inlet,,item_port_udpipe_loader_1,8891187132004646386,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,多口暗管入口,Conduit Inlet Manifold,,item_port_udpipe_loader_2,-7071509797503636190,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,暗管出口,Conduit Outlet,,item_port_udpipe_unloader_1,4964091634756154376,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,多口暗管出口,Conduit Outlet Manifold,,item_port_udpipe_unloader_2,7608272024530880544,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,仓库取货口,Depot Unloader,取货口,item_port_unloader_1,2134781047434864441,1.5.3@10024360-6,game-data-paired,从仓库取出；勿按产线方向颠倒 Loader/Unloader。
+设施与物流部件,气体散布机,Gas Dispersing Unit,,item_port_vaporizer_1,-371063026712602101,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,装备原件机,Gearing Unit,,item_port_winder_1,2249475665820059206,1.5.3@10024360-6,game-data-paired,
+设施与物流部件,天有洪炉,Forge of the Sky,洪炉;烘炉,item_port_xiranite_oven_1,8996042837153052015,1.5.3@10024360-6,game-data-paired,仅在明确指天有洪炉时使用。
+1.6.4补充核验,面粉,Flour,,item_Ingredient_flour_1,203195835651435185,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,菜籽油,Seed Oil,,item_Ingredient_oil_1,5028936539230675620,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,辣椒粉,Ground Pepper,,item_Ingredient_paprika_1,7597514759027552234,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,一百三十香,Spice Mix 130,,item_Ingredient_spices_1,4361284866938545791,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,淀粉,Starch,,item_Ingredient_starch_1,-652429368954096696,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,砂糖,Sugar,,item_Ingredient_sugar_1,-5506054371207334351,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,球豆壳,Ballpea Pod,,item_byproduct_bean_1,1941074428292063155,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,球豆壳粉末,Ballpea Pod Powder,,item_byproduct_bean_moss_1,-6239884161007369496,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,平薯叶,Pingtuber Leaf,,item_byproduct_potato_1,-2349787532223769693,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,球豆,Ballpea,,item_corp_bean_1,2845223588617076698,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,青菜,Cabbage,,item_corp_cabbage_1,5139012448104770580,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,优质青菜,Cabbage [A],,item_corp_cabbage_2,-7479738018536650775,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,籽油花,Oilseed Bloom,,item_corp_canolaflower_1,-8212693276702792269,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,多味菇,Relishroom,,item_corp_mushroom_1,-7620600377606784362,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,优质多味菇,Relishroom [A],,item_corp_mushroom_2,6069187121114522290,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,平薯,Pingtuber,,item_corp_potato_1,-3816368704203358952,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,青叶莓,Sourberry,,item_corp_strawberry_1,-3176966202245824594,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,优质青叶莓,Sourberry [A],,item_corp_strawberry_2,6669729997292694575,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,脆蔗,Crunchcane,,item_corp_sugarcane_1,1302997245441397120,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,茄果,Matoberry,,item_corp_tomato_1,4839426668101581050,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,白瓜,Whitemelon,,item_corp_whitegourd_1,-8692461743692831909,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,谷地调度券,Valley Stock Bill,,item_domain_tundra_coupon,2982387080565386942,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,草籽干粉,Powdered Grass Seed,,item_drop_lbmob_1,2944459020467725152,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,息壤装备原件,Xiranite Component,,item_equip_script_4,125199822165080877,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,水蒸气,Aquagen,,item_gas_water,-1649728920280183760,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,折金票,T-Creds,,item_gold,5406428249689377671,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,肉包子,Meat Baozi,,item_inn_dish_1,7171424554084734755,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,糯米凉糕,Sticky Rice Cake,,item_inn_dish_10,-1460864412293149668,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,鲜奶炖蛋,Steamed Flan,,item_inn_dish_11,8200510568649923681,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,豌杂拌面,Pea-Topped Noodles,,item_inn_dish_12,335796276813976312,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,手抓饭,Meaty Pilaf,,item_inn_dish_13,-6929763838496049536,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,鳞肉水饺,Fin Dumpling,,item_inn_dish_14,-6260627581367764446,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,炸薯条,Tuber Fries,,item_inn_dish_15,-4975276765390436102,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,酸菜鳞肉,Fin & Pickled Greens,,item_inn_dish_16,-7229020465379772207,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,烤肉串,Roasted Kebab,,item_inn_dish_17,2546041423321090874,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,鳞香肉丝,Fin-Savory Shreds,,item_inn_dish_18,-5813227604994485761,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,豆沙汤圆,Beanpaste Tangyuan,,item_inn_dish_19,7382038674746901867,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,手擀素面,Hand-Kneaded Noodle,,item_inn_dish_2,-4804046942260885146,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,酸莓布丁,Sourberry Pudding,,item_inn_dish_20,8481143848772801190,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,咸酪脆饼,Salted Cheese Crackers,,item_inn_dish_21,-3360373759636589232,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,雪绵豆沙,Sweetbeans on Snow,,item_inn_dish_22,189584356923856892,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,老麻抄手,Chaoshou & Numbing Sauce,,item_inn_dish_23,7006390854927101573,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,八宝饭,Eight Treasure Rice,,item_inn_dish_24,-5855790163939835654,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,至臻鳞肉卷,Roll of Fin-Supreme,,item_inn_dish_25,-7828401323162758651,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,界龙肉卷,Boundary Lung Roll,,item_inn_dish_26,168587113734267726,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,果味沙拉,Berry Fruity Toss,,item_inn_dish_27,-8758868646612624495,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,麻辣香锅,Mala Xiang Guo,,item_inn_dish_28,3134080869552159658,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,坛子肉,Clay Jar Meat,,item_inn_dish_29,9129972814430717426,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,番茄炒蛋,Mato & Egg,,item_inn_dish_3,7452343707760355522,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,福寿全,Immortal Galore of Fortune,,item_inn_dish_30,6172982797714993342,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,糖醋宝鳞,Sweet & Sour Fingot,,item_inn_dish_31,8504929997106817716,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,“银耳莲子”羹,"""Snowshroom & Lotus"" Soup",,item_inn_dish_32,-1200943583810046384,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,茄果鳞肉汤,Fin-Mato Soup,,item_inn_dish_33,1115616652714119130,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,酸辣汤,Hot & Sour Soup,,item_inn_dish_34,5163050440734841364,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,白瓜肉丸汤,Melon & Meatball Soup,,item_inn_dish_35,8483151726119276002,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,奶油蘑菇汤,Cream of Shroom,,item_inn_dish_36,-8771897933449273534,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,白鳞高汤,White Fin Broth,,item_inn_dish_37,-171148698468261151,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,莓果甜汤,Berry-Sweet Sip,,item_inn_dish_38,-4141654760052911826,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,簇锦豆腐羹,Tofu Bouquet Soup,,item_inn_dish_39,-7991863956528986411,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,红椒土豆丝,Shredded Tuber & Pepper,,item_inn_dish_4,-5217378649185149212,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,金丝小贝,Goldfloss Chiffon,,item_inn_dish_40,3495059756167023299,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,雪纱蛋黄月饼,Snow-Veiled Mooncake,,item_inn_dish_41,-6039492264340879770,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,千果珍珠圆,Pearly Fruit Punch,,item_inn_dish_42,1950152602688581328,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,红蕊奶酪蛋糕,Redbloom Cheesecake,,item_inn_dish_43,-4207671140597497355,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,“勺里游”,"""Spoon Swimmer""",,item_inn_dish_44,4048170624006541742,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,缘缘菜饭,Yuanyuan Veggy Rice,,item_inn_dish_5,8075442534371015439,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,菌菇蒸饺,Shroom Dumpling,,item_inn_dish_6,3488969683910459546,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,青菜养生粥,Tonic Congee & Greens,,item_inn_dish_7,735918845913533888,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,香煎鳞肉,Skilleted Fin,,item_inn_dish_8,244782185078496653,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,茄汁白瓜,Melon in Sauce,,item_inn_dish_9,-29710983650052025,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,大碗碎茶,Bowl of Tea,,item_inn_drink_1,2304730657503542143,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,瓶装霞莓饮,Bottled Duskberry Juice,,item_inn_drink_10,287676556470228833,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,瓶装兽奶,Bottled Milk,,item_inn_drink_2,-4099543314918011478,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,玉米汁,Corn Juice,,item_inn_drink_3,8771800776864440983,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,瓶装脆蔗汁,Bottled Canejuice,,item_inn_drink_4,-4106677954561699880,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,梨花香茶,Pear Blossom Tea,,item_inn_drink_5,-4804941866416288687,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,游人酒,Seeker's Kohl,,item_inn_drink_6,7903268645490152754,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,瓶装优质兽奶,Bottled Milk [A],,item_inn_drink_7,1901000971002273092,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,陈酿葡萄露,Vintage Grapedew,,item_inn_drink_8,-9018361913617455926,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,潮前龙井,Pre-Tide Lungjing,,item_inn_drink_9,-5835158473312084101,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,直饮水,Potable Water,,item_inn_drink_water,-8634824072460833021,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,肉包子食谱,Recipe: Meat Baozi,,item_inn_recipe_1,-5515568199351027429,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,糯米凉糕食谱,Recipe: Sticky Rice Cake,,item_inn_recipe_10,-2824577995043213220,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,鲜奶炖蛋食谱,Recipe: Steamed Flan,,item_inn_recipe_11,6267600293600795554,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,豌杂拌面食谱,Recipe: Pea-Topped Noodles,,item_inn_recipe_12,-3122014687781760919,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,手抓饭食谱,Recipe: Meaty Pilaf,,item_inn_recipe_13,-4531944873328746596,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,鳞肉水饺食谱,Recipe: Fin Dumpling,,item_inn_recipe_14,-7016059852793952366,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,炸薯条食谱,Recipe: Tuber Fries,,item_inn_recipe_15,-7153368133057752901,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,酸菜鳞肉食谱,Recipe: Fin & Pickled Greens,,item_inn_recipe_16,8117719422437921647,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,烤肉串食谱,Recipe: Roasted Kebab,,item_inn_recipe_17,4708044205143531750,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,鳞香肉丝食谱,Recipe: Fin-Savory Shreds,,item_inn_recipe_18,-7772269814775580460,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,豆沙汤圆食谱,Recipe: Beanpaste Tangyuan,,item_inn_recipe_19,3061121012567313460,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,手擀素面食谱,Recipe: Hand-Kneaded Noodle,,item_inn_recipe_2,5418384764337793701,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,酸莓布丁食谱,Recipe: Sourberry Pudding,,item_inn_recipe_20,7633508866635530628,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,咸酪脆饼食谱,Recipe: Salted Cheese Crackers,,item_inn_recipe_21,-7262703840543645397,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,雪绵豆沙食谱,Recipe: Sweetbeans on Snow,,item_inn_recipe_22,-7560063057397746648,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,老麻抄手食谱,Recipe: Chaoshou & Numbing Sauce,,item_inn_recipe_23,2867928853999325006,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,八宝饭食谱,Recipe: Eight Treasure Rice,,item_inn_recipe_24,1176640438430722584,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,至臻鳞肉卷食谱,Recipe: Roll of Fin-Supreme,,item_inn_recipe_25,-2253186012231755786,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,界龙肉卷食谱,Recipe: Boundary Lung Roll,,item_inn_recipe_26,728701355441046045,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,果味沙拉食谱,Recipe: Berry Fruity Toss,,item_inn_recipe_27,-2247049244100411061,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,麻辣香锅食谱,Recipe: Mala Xiang Guo,,item_inn_recipe_28,1555587499256929191,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,坛子肉食谱,Recipe: Clay Jar Meat,,item_inn_recipe_29,4874491770694324747,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,番茄炒蛋食谱,Recipe: Mato & Egg,,item_inn_recipe_3,-4672899435669808133,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,福寿全食谱,Recipe: Immortal Galore of Fortune,,item_inn_recipe_30,-7974942206499141364,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,糖醋宝鳞食谱,Recipe: Sweet & Sour Fingot,,item_inn_recipe_31,-3237615161434022270,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,“银耳莲子”羹食谱,"Recipe: ""Snowshroom & Lotus"" Soup",,item_inn_recipe_32,-3768063660121295041,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,茄果鳞肉汤食谱,Recipe: Fin-Mato Soup,,item_inn_recipe_33,4934946188646801432,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,酸辣汤食谱,Recipe: Hot & Sour Soup,,item_inn_recipe_34,1616494519107345192,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,白瓜肉丸汤食谱,Recipe: Melon & Meatball Soup,,item_inn_recipe_35,-7614405358442003367,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,奶油蘑菇汤食谱,Recipe: Cream of Shroom,,item_inn_recipe_36,-226419684163321198,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,白鳞高汤食谱,Recipe: White Fin Broth,,item_inn_recipe_37,1554714013463810319,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,莓果甜汤食谱,Recipe: Berry-Sweet Sip,,item_inn_recipe_38,667481546303411237,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,簇锦豆腐羹食谱,Recipe: Tofu Bouquet Soup,,item_inn_recipe_39,8045547342562419511,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,红椒土豆丝食谱,Recipe: Shredded Tuber & Pepper,,item_inn_recipe_4,-640112073658187008,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,金丝小贝食谱,Recipe: Goldfloss Chiffon,,item_inn_recipe_40,-3911168585412940394,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,雪纱蛋黄月饼食谱,Recipe: Snow-Veiled Mooncake,,item_inn_recipe_41,5040369740947229500,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,千果珍珠圆食谱,Recipe: Pearly Fruit Punch,,item_inn_recipe_42,5102153555278854286,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,红蕊奶酪蛋糕食谱,Recipe: Redbloom Cheesecake,,item_inn_recipe_43,1336393525822286919,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,“勺里游”食谱,"Recipe: ""Spoon Swimmer""",,item_inn_recipe_44,8842145250598506809,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,缘缘菜饭食谱,Recipe: Yuanyuan Veggy Rice,,item_inn_recipe_5,597761156939093783,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,菌菇蒸饺食谱,Recipe: Shroom Dumpling,,item_inn_recipe_6,901536107193593426,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,青菜养生粥食谱,Recipe: Tonic Congee & Greens,,item_inn_recipe_7,6955869418160861181,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,香煎鳞肉食谱,Recipe: Skilleted Fin,,item_inn_recipe_8,1686347318687888574,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,茄汁白瓜食谱,Recipe: Melon in Sauce,,item_inn_recipe_9,4060494072873745827,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,柑实,Citrome,,item_plant_moss_2,-19097085106193057,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,灰芦麦,Reed Rye,,item_plant_sp_1,1921410164402479325,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,苦叶椒,Tartpepper,,item_plant_sp_2,3220700695902467586,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,琼叶参,Redjade Ginseng,,item_plant_sp_3,-8524326798189090701,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,金石稻,Amber Rice,,item_plant_sp_4,3027383598905699166,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,原木,Wood,,item_plant_tundra_wood,-703979720639386569,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,洒水机,Sprinkler,,item_port_squirter_1,-6071784700378349213,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,禽蛋,Egg,,item_ranch_egg_1,243945521397155821,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,优质禽蛋,Egg [A],,item_ranch_egg_2,4070344121323592364,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,鳞肉,Fin Fillet,,item_ranch_fishmeat_1,-9140859204621199419,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,优质鳞肉,Fin Fillet [A],,item_ranch_fishmeat_2,7045087565399956274,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,饱食饲料,Yummy Feed,,item_ranch_fodder_1,-5852465142394711841,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,双效饱食饲料,Double-Yummy Feed,,item_ranch_fodder_2,4626890295336786569,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,肉块,Meat,,item_ranch_meat_1,8318744723338303194,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,优质肉块,Meat [A],,item_ranch_meat_2,-8389004743697984064,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,兽奶,Milk,,item_ranch_milk_1,3064518284458277494,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,优质兽奶,Milk [A],,item_ranch_milk_2,8145999758921411044,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4补充核验,小蜜虫布丁,Mini Honey Slugpudding,,item_slimeml_1_agrange_1_moss_2_1,5223405013408917842,1.6.4@11123848-6,game-data-paired,"Verified for the refreshed logistics collection, including inn dishes and ingredients; historical names retain their own version rows."
+1.6.4别名核验补充,息壤玉葫芦,Xiranite Jade Gourd,,item_activity_xiranite_enr_hulu,7199523894566325105,1.6.4@11123848-6,game-data-paired,名称按同ID配对；用户确认别名在community-aliases.json单独管理。
+1.6.4别名核验补充,优质锦草软饮,Jincao Tea,,item_bottled_food_5,-6214924670251925851,1.6.4@11123848-6,game-data-paired,名称按同ID配对；用户确认别名在community-aliases.json单独管理。
+1.6.4别名核验补充,优质芽针针剂,Yazhen Syringe [A],,item_bottled_rec_hp_5,2523415347924073170,1.6.4@11123848-6,game-data-paired,名称按同ID配对；用户确认别名在community-aliases.json单独管理。
+1.6.4别名核验补充,赤铜块,Cuprium,,item_copper_nugget,6842785141463934801,1.6.4@11123848-6,game-data-paired,名称按同ID配对；用户确认别名在community-aliases.json单独管理。
+1.6.4别名核验补充,赤铜矿,Cuprium Ore,,item_copper_ore,-9222228289270372539,1.6.4@11123848-6,game-data-paired,名称按同ID配对；用户确认别名在community-aliases.json单独管理。
+1.6.4别名核验补充,岳研避瘴茶货组,Eureka Anti-smog Tincture [pkg],,item_domainshop_cargo_jinlong_2,6280408629792556703,1.6.4@11123848-6,game-data-paired,名称按同ID配对；用户确认别名在community-aliases.json单独管理。
+1.6.4别名核验补充,浸雾大弩,Haze-Soaked Ballista,,item_drop_hvybow_1,-4437120287885568703,1.6.4@11123848-6,game-data-paired,名称按同ID配对；用户确认别名在community-aliases.json单独管理。
+1.6.4别名核验补充,紫晶质瓶,Amethyst Bottle,,item_glass_bottle,2915127895210505089,1.6.4@11123848-6,game-data-paired,名称按同ID配对；用户确认别名在community-aliases.json单独管理。
+1.6.4别名核验补充,高晶质瓶,Cryston Bottle,,item_glass_enr_bottle,5818151770159173890,1.6.4@11123848-6,game-data-paired,名称按同ID配对；用户确认别名在community-aliases.json单独管理。
+1.6.4别名核验补充,烟火钱,Spirit Money,,item_inn_gold,1617821802637222465,1.6.4@11123848-6,game-data-paired,名称按同ID配对；用户确认别名在community-aliases.json单独管理。
+1.6.4别名核验补充,钢制零件,Steel Part,,item_iron_enr_cmpt,-3264761163333452544,1.6.4@11123848-6,game-data-paired,名称按同ID配对；用户确认别名在community-aliases.json单独管理。
+1.6.4别名核验补充,高容谷地电池,HC Valley Battery,,item_proc_battery_3,2537395868760611370,1.6.4@11123848-6,game-data-paired,名称按同ID配对；用户确认别名在community-aliases.json单独管理。
+1.6.4用户补充核验,芽针针剂,Yazhen Syringe [C],,item_bottled_rec_hp_4,1013991778694932151,1.6.4@11123848-6,game-data-paired,按同版本ItemTable.name.id精确配对；玩家别名的确认/暂定含义单独见community-aliases.json。
+1.6.4用户补充核验,锦草软饮,Jincao Drink,,item_bottled_food_4,-7688363843752898339,1.6.4@11123848-6,game-data-paired,按同版本ItemTable.name.id精确配对；玩家别名的确认/暂定含义单独见community-aliases.json。
+1.6.4用户补充核验,平薯叶粉末,Pingtuber Leaf Powder,,item_byproduct_potato_moss_1,-3856787363701937892,1.6.4@11123848-6,game-data-paired,按同版本ItemTable.name.id精确配对；玩家别名的确认/暂定含义单独见community-aliases.json。
+1.6.4审校奖励名核验,嵌晶玉,Oroberyl,,item_diamond,2239345069872003978,1.6.4@11123848-6,game-data-paired,奖励/商店审校按原文物品ID精确配对；不修改数量或价目。
+1.6.4审校奖励名核验,武器检查套组,Arms INSP Set,,item_weapon_expcard_high,6826735377194748722,1.6.4@11123848-6,game-data-paired,奖励/商店审校按原文物品ID精确配对；不修改数量或价目。
+1.6.4审校奖励名核验,协议棱柱组,Protohedron,,item_char_skill_level_7_12,-5685904010576788364,1.6.4@11123848-6,game-data-paired,奖励/商店审校按原文物品ID精确配对；不修改数量或价目。
+1.6.4审校奖励名核验,协议圆盘组,Protoset,,item_char_break_stage_3_4,2233728422771390037,1.6.4@11123848-6,game-data-paired,奖励/商店审校按原文物品ID精确配对；不修改数量或价目。
+1.6.4审校奖励名核验,高级认知载体,Advanced Cognitive Carrier,,item_expcard_stage2_high,3051938166510576506,1.6.4@11123848-6,game-data-paired,奖励/商店审校按原文物品ID精确配对；不修改数量或价目。
+1.6.4审校奖励名核验,高阶培养自选箱Ⅰ,Advanced Progression Selection Crate Ⅰ,,item_case_bp_selfselect_skillsp_1,2137468606500127645,1.6.4@11123848-6,game-data-paired,奖励/商店审校按原文物品ID精确配对；不修改数量或价目。
+1.6.4审校奖励名核验,泡泡出击,Chubby Lung Attacks,,item_user_avatar_activity_9,5189875826986325556,1.6.4@11123848-6,game-data-paired,奖励/商店审校按原文物品ID精确配对；不修改数量或价目。
+1.6.4审校奖励名核验,存续的痕迹,Mark of Perseverance,,item_char_skill_crown,-5843006072967753631,1.6.4@11123848-6,game-data-paired,奖励/商店审校按原文物品ID精确配对；不修改数量或价目。

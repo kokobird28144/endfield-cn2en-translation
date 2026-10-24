@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "scope": "fictional-example",
+  "source": "Self-authored fictional software example",
+  "records": [
+    {
+      "aliases": ["小样"],
+      "user_meaning": "演示矿的虚构简称",
+      "meaning_status": "user-suggested",
+      "rule": "仅演示候选别名结构，不代表真实用户确认或游戏术语。",
+      "targets": [
+        {"zh": "演示矿", "en": "Demo Ore", "item_id": "demo_ore", "version": "demo-1"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "version": "1.6.4@11123848-6",
+  "retrievedAt": "2026-10-19T12:21:06.818Z",
+  "sourceType": "community-mirror-of-game-localization",
+  "files": [
+    {
+      "file": "manifest.json",
+      "url": "https://data.akedata.wiki/manifest.json",
+      "sha256": "35d1b9553ac086ca085e0f4512bd0dc6eccf91e8b1f810306f08ab768079f1a0",
+      "bytes": 3989
+    },
+    {
+      "file": "ItemTable.json",
+      "url": "https://data.akedata.wiki/public/1.6.4/11123848-6/TableCfg/ItemTable.json",
+      "sha256": "f1bc4576941eeee90fd33413a397c2855266369a2c7acf55dc828f414558d494",
+      "bytes": 3051649
+    },
+    {
+      "file": "I18nTextTable_CN.json",
+      "url": "https://data.akedata.wiki/public/1.6.4/11123848-6/TableCfg/I18nTextTable_CN.json",
+      "sha256": "84bc67165390c0bb89feb108cbf725ed4921c176bd197e5595a7042cbdf5cf52",
+      "bytes": 13059654
+    },
+    {
+      "file": "I18nTextTable_EN.json",
+      "url": "https://data.akedata.wiki/public/1.6.4/11123848-6/TableCfg/I18nTextTable_EN.json",
+      "sha256": "042bec719968ea0baf97169e5f4e5c7719e732c4a1574320566dd8453a5d727f",
+      "bytes": 14243687
+    }
+  ],
+  "item_pairs": 143,
+  "interface_pairs": 25,
+  "integer_precision": "Python arbitrary-precision integers; name_id strings",
+  "primary_csv_records": 286
+}

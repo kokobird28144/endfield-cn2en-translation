@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+skills/endfield-cn2en-translation/data/*
+!skills/endfield-cn2en-translation/data/README.md

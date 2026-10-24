@@ -1,0 +1,4 @@
+interface:
+  display_name: "终末地文档中英翻译"
+  short_description: "内置游戏双语名称、真实别名、玩家黑话与完整生产物流术语"
+  default_prompt: "使用 $endfield-cn2en-translation 翻译指定的终末地工业文档；查询内置游戏名称、别名和生产机制术语，按当前语境消歧，保留数值、公式与版本限定，未核实名称标注暂译。"

@@ -1,0 +1,414 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-19",
+  "localization_source": "community-mirror-of-game-localization",
+  "provenance": "data-provenance-1.6.4.json",
+  "records": [
+    {
+      "zh": "零号委托",
+      "en": "Zeroth Directive",
+      "category": "version-title",
+      "version": "1.6.4@11123848-6",
+      "status": "publisher-confirmed-and-localization-paired",
+      "publisher_urls": [
+        "https://endfield.gryphline.com/en-us/news/3846"
+      ],
+      "evidence": {
+        "name_id": "-7446559219486687262",
+        "cn_text": "零号委托",
+        "en_text": "Zeroth Directive"
+      }
+    },
+    {
+      "zh": "新潮起，故渊离",
+      "en": "Old Deep Water Dies, by Rising Tide It is Denied",
+      "category": "version-title",
+      "version": "1.6.4@11123848-6",
+      "status": "publisher-confirmed-and-localization-paired",
+      "publisher_urls": [
+        "https://endfield.gryphline.com/en-us/news/8907"
+      ],
+      "evidence": {
+        "name_id": "472941762461724727",
+        "cn_text": "「新潮起，故渊离」版本即将开放，参与签到累计可领取奖励基础寻访凭证×2和嵌晶玉×500。",
+        "en_text": "[Old Deep Water Dies, by Rising Tide It is Denied] version update is coming soon. Keep signing in to acquire rewards that include [Basic HH Permit]×2 and [Oroberyl]×500."
+      }
+    },
+    {
+      "zh": "春晓时",
+      "en": "At the Wake of Spring",
+      "category": "version-title",
+      "version": "1.6.4@11123848-6",
+      "status": "publisher-confirmed-and-localization-paired",
+      "publisher_urls": [
+        "https://endfield.gryphline.com/en-us/news/0751"
+      ],
+      "evidence": {
+        "name_id": "725778451836501280",
+        "cn_text": "「春晓时」版本即将开放，参与签到累计可领取奖励基础寻访凭证×2和嵌晶玉×500。",
+        "en_text": "[At the Wake of Spring] version update is coming soon. Keep signing in to acquire rewards that include [Basic HH Permit]×2 and [Oroberyl]×500."
+      }
+    },
+    {
+      "zh": "寻遗散记",
+      "en": "Sketches of Lost Heirlooms",
+      "category": "version-title",
+      "version": "1.6.4@11123848-6",
+      "status": "publisher-confirmed-and-localization-paired",
+      "publisher_urls": [
+        "https://endfield.gryphline.com/en-us/news/0758"
+      ],
+      "evidence": {
+        "name_id": "-599482544547688139",
+        "cn_text": "「寻遗散记」版本即将开放，参与签到累计可领取基础寻访凭证×2和嵌晶玉×500等奖励。",
+        "en_text": "[Sketches of Lost Heirlooms] version update is coming soon. Keep signing in to acquire rewards that include [Basic HH Permit]×2 and [Oroberyl]×500."
+      }
+    },
+    {
+      "zh": "向渊行",
+      "en": "Homecoming",
+      "category": "version-title",
+      "version": "1.6.4@11123848-6",
+      "status": "publisher-confirmed-and-localization-paired",
+      "publisher_urls": [
+        "https://endfield.gryphline.com/en-us/news/5200"
+      ],
+      "evidence": {
+        "name_id": "1653308312054926757",
+        "cn_text": "「向渊行」版本即将开放，参与签到累计可领取基础寻访凭证×2和嵌晶玉×500等奖励。",
+        "en_text": "[Homecoming] version update is coming soon. Keep signing in to acquire rewards that include [Basic HH Permit]×2 and [Oroberyl]×500."
+      }
+    },
+    {
+      "zh": "雪凇幽梦",
+      "en": "Dreamscape of Wind and Snow",
+      "category": "version-title",
+      "version": "1.6.4@11123848-6",
+      "status": "publisher-confirmed-and-localization-paired",
+      "publisher_urls": [
+        "https://endfield.gryphline.com/en-us/news/5209"
+      ],
+      "evidence": {
+        "name_id": "-4492767162004207194",
+        "cn_text": "「雪凇幽梦」版本即将开放，参与签到累计可领取基础寻访凭证×2和嵌晶玉×500等奖励。",
+        "en_text": "[Dreamscape of Wind and Snow] version update is coming soon. Keep signing in to acquire rewards that include [Basic HH Permit]×2 and [Oroberyl]×500."
+      }
+    },
+    {
+      "zh": "丹青渡",
+      "en": "Sanctuary of Ink",
+      "category": "version-title",
+      "version": "1.6.4@11123848-6",
+      "status": "publisher-confirmed-and-localization-paired",
+      "publisher_urls": [
+        "https://endfield.gryphline.com/en-us/news/0744"
+      ],
+      "evidence": {
+        "name_id": "-6747443238093105401",
+        "cn_text": "「丹青渡」版本即将开放，参与签到累计可领取基础寻访凭证×2和嵌晶玉×500等奖励。",
+        "en_text": "[Sanctuary of Ink] version update is coming soon. Keep signing in to acquire rewards that include [Basic HH Permit]×2 and [Oroberyl]×500."
+      }
+    },
+    {
+      "zh": "景玉谷",
+      "en": "Jingyu Valley",
+      "category": "place",
+      "version": "1.6.4@11123848-6",
+      "status": "localization-paired-via-community-mirror",
+      "publisher_urls": [],
+      "notes": "已检索发行商官网，未找到独立公告短名称证据；采用同版本游戏文本配对，不称官网直接确认。",
+      "evidence": {
+        "name_id": "-5373797499113382820",
+        "cn_text": "景玉谷",
+        "en_text": "Jingyu Valley"
+      }
+    },
+    {
+      "zh": "首墩",
+      "en": "Marker Stone",
+      "category": "place",
+      "version": "1.6.4@11123848-6",
+      "status": "publisher-corroborated-and-localization-paired",
+      "publisher_urls": [
+        "https://endfield.gryphline.com/en-us/news/0751"
+      ],
+      "notes": "",
+      "evidence": {
+        "name_id": "832119669433206010",
+        "cn_text": "首墩",
+        "en_text": "Marker Stone"
+      }
+    },
+    {
+      "zh": "应龙关",
+      "en": "Yinglung Pass",
+      "category": "place",
+      "version": "1.6.4@11123848-6",
+      "status": "publisher-corroborated-and-localization-paired",
+      "publisher_urls": [
+        "https://endfield.gryphline.com/en-us/news/5200"
+      ],
+      "notes": "",
+      "evidence": {
+        "name_id": "986571157967411676",
+        "cn_text": "应龙关",
+        "en_text": "Yinglung Pass"
+      }
+    },
+    {
+      "zh": "北部禁区",
+      "en": "North Wuling Exclusion Zone",
+      "category": "place",
+      "version": "1.6.4@11123848-6",
+      "status": "publisher-corroborated-and-localization-paired",
+      "publisher_urls": [
+        "https://endfield.gryphline.com/en-us/news/5200"
+      ],
+      "notes": "",
+      "evidence": {
+        "name_id": "-570039683006134735",
+        "cn_text": "北部禁区",
+        "en_text": "North Wuling Exclusion Zone"
+      }
+    },
+    {
+      "zh": "盈天台",
+      "en": "Xiranflow Cloudseeder",
+      "category": "place",
+      "version": "1.6.4@11123848-6",
+      "status": "publisher-corroborated-and-localization-paired",
+      "publisher_urls": [
+        "https://endfield.gryphline.com/en-us/news/5200"
+      ],
+      "notes": "地点短名为Xiranflow Cloudseeder；官方公告的完整据点名为Xiranflow Cloudseeder Station，按原文是否含建设站区分。",
+      "evidence": {
+        "name_id": "-8716564852914886708",
+        "cn_text": "盈天台",
+        "en_text": "Xiranflow Cloudseeder"
+      }
+    },
+    {
+      "zh": "天王坪",
+      "en": "Sky King Flats",
+      "category": "place",
+      "version": "1.6.4@11123848-6",
+      "status": "publisher-corroborated-and-localization-paired",
+      "publisher_urls": [
+        "https://endfield.gryphline.com/en-us/news/0758"
+      ],
+      "notes": "地点短名Sky King Flats；援建点为Sky King Flats Construction Site，不能把后缀无条件加给地点。",
+      "evidence": {
+        "name_id": "-8098913061508310466",
+        "cn_text": "天王坪",
+        "en_text": "Sky King Flats"
+      }
+    },
+    {
+      "zh": "武陵",
+      "en": "Wuling",
+      "category": "place",
+      "version": "1.6.4@11123848-6",
+      "status": "publisher-corroborated-and-localization-paired",
+      "publisher_urls": [
+        "https://endfield.gryphline.com/en-us/news/5200"
+      ],
+      "notes": "",
+      "evidence": {
+        "name_id": "-8022308066729892911",
+        "cn_text": "武陵",
+        "en_text": "Wuling"
+      }
+    },
+    {
+      "zh": "四号谷地",
+      "en": "Valley IV",
+      "category": "place",
+      "version": "1.6.4@11123848-6",
+      "status": "publisher-corroborated-and-localization-paired",
+      "publisher_urls": [
+        "https://endfield.gryphline.com/en-us/news/5200"
+      ],
+      "notes": "",
+      "evidence": {
+        "name_id": "-8543902156289905334",
+        "cn_text": "四号谷地",
+        "en_text": "Valley IV"
+      }
+    },
+    {
+      "zh": "弹性物资",
+      "en": "elastic goods",
+      "category": "interface-or-goods",
+      "version": "1.6.4@11123848-6",
+      "status": "publisher-confirmed-and-localization-paired",
+      "publisher_urls": [
+        "https://endfield.gryphline.com/en-us/news/0758"
+      ],
+      "notes": "正文通用名小写；标题按标题大小写处理，不重新意译。",
+      "evidence": {
+        "name_id": "-8932482120981175916",
+        "cn_text": "在物资调度系统中，累计购买%d次弹性物资",
+        "en_text": "In Stock Redistribution, purchase elastic goods %d time(s)"
+      }
+    },
+    {
+      "zh": "帝江号",
+      "en": "Dijiang",
+      "category": "interface-or-goods",
+      "version": "1.6.4@11123848-6",
+      "status": "publisher-confirmed-and-localization-paired",
+      "publisher_urls": [
+        "https://endfield.gryphline.com/en-us",
+        "https://endfield.gryphline.com/en-us/news/5200"
+      ],
+      "notes": "官网设定页完整称呼OMV Dijiang；日常访问/舱室等正文可用Dijiang。",
+      "evidence": {
+        "name_id": "-8818356918327059087",
+        "cn_text": "帝江号",
+        "en_text": "Dijiang"
+      }
+    },
+    {
+      "zh": "气矿",
+      "en": "Gas Vent",
+      "category": "interface-or-goods",
+      "version": "1.6.4@11123848-6",
+      "status": "localization-paired-via-community-mirror",
+      "publisher_urls": [],
+      "notes": "用户确认指气体矿点，不是气态矿物；泛称可小写gas vent，明确气种时为Xiragen/Inergen vent。",
+      "evidence": {
+        "name_id": "-540931051955849055",
+        "cn_text": "气矿",
+        "en_text": "Gas Vent"
+      }
+    },
+    {
+      "zh": "净水节点",
+      "en": "Purification Node",
+      "category": "interface-or-goods",
+      "version": "1.6.4@11123848-6",
+      "status": "publisher-confirmed-and-localization-paired",
+      "publisher_urls": [
+        "https://endfield.gryphline.com/en-us/news/0751"
+      ],
+      "notes": "游戏界面/任务同名，避免Clean Water node混淆清水物品。",
+      "evidence": {
+        "name_id": "-8923972042880634610",
+        "cn_text": "净水节点",
+        "en_text": "Purification Node"
+      }
+    },
+    {
+      "zh": "岳研避瘴茶",
+      "en": "Eureka Anti-smog Tincture",
+      "category": "interface-or-goods",
+      "version": "1.6.4@11123848-6",
+      "status": "localization-paired-via-community-mirror",
+      "publisher_urls": [],
+      "notes": "避瘴茶检索命中真实游戏名；现有数据不支持岳研为笔误。货组全称另见物品表Eureka Anti-smog Tincture [pkg]。",
+      "evidence": {
+        "name_id": "6483378646732934334",
+        "cn_text": "“活体天使水”“星辰”“岳研避瘴茶”“考运特饮”……",
+        "en_text": "\"Living Aggeloi Extract\", \"Stardust\", \"Eureka Anti-smog Tincture\", \"Good Luck Exam Sip\"..."
+      }
+    },
+    {
+      "zh": "心脏修缮站",
+      "en": "Cardiac Remediation Station",
+      "category": "place",
+      "version": "1.6.4@11123848-6",
+      "status": "localization-paired-via-community-mirror",
+      "publisher_urls": [],
+      "notes": "用户确认心脏站简称指此据点，勿译Heart Station。",
+      "evidence": {
+        "name_id": "8530199970258623820",
+        "cn_text": "心脏修缮站",
+        "en_text": "Cardiac Remediation Station"
+      }
+    },
+    {
+      "zh": "集成实训",
+      "en": "AIC Fieldwork",
+      "category": "gear-category",
+      "version": "1.6.4@11123848-6",
+      "status": "localization-paired-via-community-mirror",
+      "publisher_urls": [],
+      "notes": "实际装备类别，正文集成实训装备可写AIC Fieldwork gear，不直译training equipment。",
+      "evidence": {
+        "name_id": "4545517051165535353",
+        "cn_text": "集成实训",
+        "en_text": "AIC Fieldwork"
+      }
+    },
+    {
+      "zh": "集成实训装备组",
+      "en": "AIC Fieldwork Gear Pack",
+      "category": "gear-category",
+      "version": "1.6.4@11123848-6",
+      "status": "localization-paired-via-community-mirror",
+      "publisher_urls": [],
+      "notes": "完整界面类名；原文只有集成实训装备时不强加Gear Pack后缀。",
+      "evidence": {
+        "name_id": "5836356262880106218",
+        "cn_text": "集成实训装备组",
+        "en_text": "AIC Fieldwork Gear Pack"
+      }
+    },
+    {
+      "zh": "调度券",
+      "en": "Stock Bill",
+      "category": "interface",
+      "version": "1.6.4@11123848-6",
+      "status": "localization-paired-via-community-mirror",
+      "publisher_urls": [],
+      "notes": "同版本完整CN/EN按精确字符串ID配对；泛指调度动作不机械改作系统名，基质不译数学matrix。",
+      "evidence": {
+        "name_id": "6456409470881217971",
+        "cn_text": "调度券",
+        "en_text": "Stock Bill"
+      }
+    },
+    {
+      "zh": "物资调度",
+      "en": "Stock Redistribution",
+      "category": "interface",
+      "version": "1.6.4@11123848-6",
+      "status": "localization-paired-via-community-mirror",
+      "publisher_urls": [],
+      "notes": "同版本完整CN/EN按精确字符串ID配对；泛指调度动作不机械改作系统名，基质不译数学matrix。",
+      "evidence": {
+        "name_id": "-3743161453472781007",
+        "cn_text": "物资调度",
+        "en_text": "Stock Redistribution"
+      }
+    },
+    {
+      "zh": "基质",
+      "en": "Essence",
+      "category": "interface",
+      "version": "1.6.4@11123848-6",
+      "status": "localization-paired-via-community-mirror",
+      "publisher_urls": [],
+      "notes": "同版本完整CN/EN按精确字符串ID配对；泛指调度动作不机械改作系统名，基质不译数学matrix。",
+      "evidence": {
+        "name_id": "-5883046785278856930",
+        "cn_text": "基质",
+        "en_text": "Essence"
+      }
+    },
+    {
+      "zh": "基质蚀刻",
+      "en": "Essence Etching",
+      "category": "interface",
+      "version": "1.6.4@11123848-6",
+      "status": "localization-paired-via-community-mirror",
+      "publisher_urls": [],
+      "notes": "同版本完整CN/EN按精确字符串ID配对；泛指调度动作不机械改作系统名，基质不译数学matrix。",
+      "evidence": {
+        "name_id": "9003259202170401125",
+        "cn_text": "基质蚀刻",
+        "en_text": "Essence Etching"
+      }
+    }
+  ]
+}

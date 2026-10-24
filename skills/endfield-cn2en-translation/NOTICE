@@ -1,0 +1,31 @@
+Endfield CN2EN Translation — licensing and data scope
+
+The independently written workflow, helper code, tests, format documentation
+and fictional software examples use the MIT license in LICENSE. That license
+does not grant rights that this project does not control.
+
+Bundled reference data includes 309 versioned game-name pairs, 22 historical
+alias rules, community slang, a production/logistics terminology table,
+27 verified-name records and 25 supplemental interface records. Game names,
+localization text and related game material remain subject to the rights of
+Hypergryph and other applicable rights holders. A code license for an
+upstream website is not a relicense of its game data.
+
+Source URLs, snapshot versions, historical extraction methods and original
+file hashes are documented in skills/endfield-cn2en-translation/references/
+sources.md and the data-provenance files. These are source records, not a
+representation that all third-party material has a separate MIT grant.
+
+Community terminology entries contain editorial translation suggestions and
+historical semantic context. They do not establish official names or universal
+mechanics. Any retained third-party expression remains subject to applicable
+rights and terms. This notice does not impose a personal-use or noncommercial
+restriction on the MIT-licensed original tools and workflow.
+
+Records in examples/data are fictional software examples.
+
+Arknights: Endfield and associated trademarks belong to their respective
+rights holders. This is an unofficial translation aid, not an official
+localization or endorsement. Providing local dictionaries does not change
+their original rights or permissions. The package does not itself certify
+permission for every downstream use of third-party material.

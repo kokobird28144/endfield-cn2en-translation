@@ -1,0 +1,38 @@
+{
+  "checked_date": "2026-10-19",
+  "version": "1.5.3@10024360-6",
+  "source_type": "community-mirror-of-game-localization",
+  "glossary_entries": 143,
+  "corpus_markdown_files": 175,
+  "extraction": "ItemTable[item_id].name.id -> CN[str(id)] and EN[str(id)]; preserve int64 IDs as strings in CSV.",
+  "sources": [
+    {
+      "table": "ItemTable",
+      "url": "https://data.akedata.wiki/public/1.5.3/10024360-6/TableCfg/ItemTable.json",
+      "sha256": "2bf74745b2e2757aea32969bf03b5c6bce785e40f937e45efe189f3d29901134",
+      "bytes": 2759170,
+      "records": 2829
+    },
+    {
+      "table": "I18nTextTable_CN",
+      "url": "https://data.akedata.wiki/public/1.5.3/10024360-6/TableCfg/I18nTextTable_CN.json",
+      "sha256": "db919556bf9badadd9169926af6a7ee03451e1aa000b10fefb6142a18370d638",
+      "bytes": 11734228,
+      "records": 147603
+    },
+    {
+      "table": "I18nTextTable_EN",
+      "url": "https://data.akedata.wiki/public/1.5.3/10024360-6/TableCfg/I18nTextTable_EN.json",
+      "sha256": "0dcaef865312a9b71659c0c3851ac2bc28e736115a2fab12b418bc3974ca73c7",
+      "bytes": 12766847,
+      "records": 147603
+    },
+    {
+      "table": "FactoryBuildingTable",
+      "url": "https://data.akedata.wiki/public/1.5.3/10024360-6/TableCfg/FactoryBuildingTable.json",
+      "sha256": "0974bd95f3e9ebb028be19c896ef660eb1d5830c905b39744a7e9cd5b5563a53",
+      "bytes": 246187,
+      "records": 112
+    }
+  ]
+}

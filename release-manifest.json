@@ -1,0 +1,62 @@
+{
+  "version": "0.2.0",
+  "license": "MIT",
+  "edition": "general-translation-with-terminology",
+  "files": [
+    ".gitignore",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "NOTICE",
+    "README.md",
+    "examples/data/community-aliases.json",
+    "examples/data/game-terms.csv",
+    "examples/data/official-names.json",
+    "release-manifest.json",
+    "skills/endfield-cn2en-translation/LICENSE",
+    "skills/endfield-cn2en-translation/NOTICE",
+    "skills/endfield-cn2en-translation/SKILL.md",
+    "skills/endfield-cn2en-translation/agents/openai.yaml",
+    "skills/endfield-cn2en-translation/data/README.md",
+    "skills/endfield-cn2en-translation/references/community-aliases.json",
+    "skills/endfield-cn2en-translation/references/community-aliases.md",
+    "skills/endfield-cn2en-translation/references/community-slang.md",
+    "skills/endfield-cn2en-translation/references/corpus-map.md",
+    "skills/endfield-cn2en-translation/references/data-format.md",
+    "skills/endfield-cn2en-translation/references/data-provenance-1.6.4.json",
+    "skills/endfield-cn2en-translation/references/data-provenance.json",
+    "skills/endfield-cn2en-translation/references/game-terms.csv",
+    "skills/endfield-cn2en-translation/references/game-terms.md",
+    "skills/endfield-cn2en-translation/references/interface-terms-1.6.4.json",
+    "skills/endfield-cn2en-translation/references/official-names.json",
+    "skills/endfield-cn2en-translation/references/official-names.md",
+    "skills/endfield-cn2en-translation/references/production-terms.md",
+    "skills/endfield-cn2en-translation/references/project-adapter.md",
+    "skills/endfield-cn2en-translation/references/sources.md",
+    "skills/endfield-cn2en-translation/references/translation-guide.md",
+    "skills/endfield-cn2en-translation/scripts/lookup_terms.py",
+    "tests/test_lookup_terms.py",
+    "tools/check_release.py"
+  ],
+  "license_scope": "Original workflow and tools: MIT; third-party game data: see NOTICE and reference sources.",
+  "bundled_data": {
+    "game_records": 309,
+    "game_versions": {
+      "1.5.3@10024360-6": 143,
+      "1.6.4@11123848-6": 166
+    },
+    "alias_records": 22,
+    "official_records": 27,
+    "interface_records": 25,
+    "production_terms": 107,
+    "slang_terms": 22,
+    "preserved_file_sha256": {
+      "game-terms.csv": "c8e0d38169547d754b3f40cb3d51c8c06d7c17287fdd678a99ee903b49f166ef",
+      "game-terms.md": "155078c43c5593366614c23bd03f6f8d439727b2bbb1d5d24364395d8f54b877",
+      "official-names.json": "0d2289c6e6aeff55212fea7c68b2a710971416527653f6955849fee94618209c",
+      "official-names.md": "1ef15d8d2ae0c95b95dda7e1290e91195b2693801246a76a293af0677f4961f0",
+      "interface-terms-1.6.4.json": "1205e04fa7670fe927f771057ad699c7f27193b5c099c0cb70a62f284471707c",
+      "data-provenance.json": "68473540847dc2fbf3b4c6cef8120139c3eeb74a3a00ccb9e3c9935950bfcb67",
+      "data-provenance-1.6.4.json": "f3da49ffffefa23c9ea581e7ccc4cab7db5022d23d855ad7abe6952aad27e2f9"
+    }
+  }
+}

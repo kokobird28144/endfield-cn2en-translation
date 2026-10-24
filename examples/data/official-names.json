@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "source": "Self-authored fictional software example; no official verification",
+  "records": [
+    {
+      "zh": "演示枢纽",
+      "en": "Demo Hub",
+      "item_id": "demo_hub",
+      "version": "demo-1",
+      "status": "fictional-example",
+      "notes": "仅演示数据格式，不是任何官方名称的证据。"
+    }
+  ]
+}

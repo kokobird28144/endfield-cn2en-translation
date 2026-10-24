@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "scope": "终末地工业、生产与物流文档；历史语料中的别名候选，迁移到新文档必须重新核对上下文",
+  "source": "user-clarification-2026-10-19",
+  "updated_at": "2026-10-19",
+  "policy": "保留历史用户确认和暂定状态，不将局部语义确认为所有作者的通用用法。官方英文配对与别名指代是不同证据；多个候选按地区、配方与工序判断。",
+  "records": [
+    {
+      "aliases": [
+        "可复现可空"
+      ],
+      "kind": "source-typo",
+      "meaning_status": "user-confirmed",
+      "confirmed_at": "2026-10-19",
+      "targets": [
+        {
+          "zh": "可复现",
+          "en": "reproducible",
+          "status": "user-directed-reading"
+        }
+      ],
+      "rule": "历史语料曾确认“可复现可空”为多写文字，按“可复现”译为 reproducible。仅当前语境也能支持这一笔误判断时采用；不得在新文档中自动删除“可空”条件。",
+      "application_scope": "历史语料中的笔误读法；新文档须核对上下文或向用户确认，不能自动改写。",
+      "requires_context": true
+    },
+    {
+      "aliases": [
+        "浸雾大臂"
+      ],
+      "kind": "source-typo",
+      "meaning_status": "user-confirmed",
+      "confirmed_at": "2026-10-19",
+      "targets": [
+        {
+          "zh": "浸雾大弩",
+          "en": "Haze-Soaked Ballista",
+          "item_id": "item_drop_hvybow_1",
+          "name_id": "-4437120287885568703",
+          "version": "1.6.4@11123848-6",
+          "status": "game-data-paired"
+        }
+      ],
+      "rule": "用户确认大臂是大弩笔误。保留中文原件，英译按浸雾大弩。",
+      "application_scope": "历史语料中的笔误读法；新文档须核对上下文或向用户确认，不能自动改写。",
+      "requires_context": true
+    },
+    {
+      "aliases": [
+        "红矿"
+      ],
+      "kind": "alias",
+      "meaning_status": "user-confirmed",
+      "confirmed_at": "2026-10-19",
+      "targets": [
+        {
+          "zh": "赤铜矿",
+          "en": "Cuprium Ore",
+          "item_id": "item_copper_ore",
+          "name_id": "-9222228289270372539",
+          "version": "1.6.4@11123848-6",
+          "status": "game-data-paired"
+        }
+      ],
+      "rule": "在赤铜矿开采或供给语境中可指赤铜矿 Cuprium Ore；先核对地区、配方与物料阶段，不单凭颜色在新文档中确定矿物。",
+      "application_scope": "仅在当前文档的对象、配方、地区与语义相符时采用；历史确认不构成全局替换规则。"
+    },
+    {
+      "aliases": [
+        "铜药"
+      ],
+      "kind": "alias",
+      "meaning_status": "user-confirmed",
+      "confirmed_at": "2026-10-19",
+      "targets": [
+        {
+          "zh": "优质锦草软饮",
+          "en": "Jincao Tea",
+          "item_id": "item_bottled_food_5",
+          "name_id": "-6214924670251925851",
+          "version": "1.6.4@11123848-6",
+          "status": "game-data-paired"
+        },
+        {
+          "zh": "优质芽针针剂",
+          "en": "Yazhen Syringe [A]",
+          "item_id": "item_bottled_rec_hp_5",
+          "name_id": "2523415347924073170",
+          "version": "1.6.4@11123848-6",
+          "status": "game-data-paired"
+        }
+      ],
+      "rule": "赤铜块加工得到的药品统称。按地区、植物及配方选择优质锦草软饮或优质芽针针剂；不能固定映射一种药。若仍缺上下文，说明两候选，勿凭颜色猜等级。",
+      "user_meaning": "优质锦草软饮 / 优质芽针针剂",
+      "requires_context": true,
+      "application_scope": "仅在当前文档的对象、配方、地区与语义相符时采用；历史确认不构成全局替换规则。"
+    },
+    {
+      "aliases": [
+        "铜块"
+      ],
+      "kind": "alias",
+      "meaning_status": "user-confirmed",
+      "confirmed_at": "2026-10-19",
+      "targets": [
+        {
+          "zh": "赤铜块",
+          "en": "Cuprium",
+          "item_id": "item_copper_nugget",
+          "name_id": "6842785141463934801",
+          "version": "1.6.4@11123848-6",
+          "status": "game-data-paired"
+        }
+      ],
+      "rule": "赤铜块别名；与赤铜矿、赤铜粉区分。",
+      "application_scope": "仅在当前文档的对象、配方、地区与语义相符时采用；历史确认不构成全局替换规则。"
+    },
+    {
+      "aliases": [
+        "气矿",
+        "气体矿点"
+      ],
+      "kind": "alias",
+      "meaning_status": "user-confirmed",
+      "confirmed_at": "2026-10-19",
+      "targets": [
+        {
+          "zh": "气矿",
+          "en": "Gas Vent",
+          "name_id": "-540931051955849055",
+          "version": "1.6.4@11123848-6",
+          "status": "i18n-data-paired"
+        }
+      ],
+      "rule": "指矿点而非物料；明确息壤气/惰气时可写Xiragen vent / Inergen vent。消耗气矿的口语段落须按上下文写该矿点供给的气体，不能把矿点本体送入机器。",
+      "requires_context": true,
+      "application_scope": "仅在当前文档的对象、配方、地区与语义相符时采用；历史确认不构成全局替换规则。"
+    },
+    {
+      "aliases": [
+        "禁区"
+      ],
+      "kind": "alias",
+      "meaning_status": "user-confirmed",
+      "confirmed_at": "2026-10-19",
+      "targets": [
+        {
+          "zh": "北部禁区",
+          "en": "North Wuling Exclusion Zone",
+          "name_id": "-570039683006134735",
+          "version": "1.6.4@11123848-6",
+          "status": "i18n-data-paired"
+        }
+      ],
+      "rule": "本语料一般简称北部禁区。禁区息壤气通常为Xiragen from the North Wuling Exclusion Zone；若句子另有明确禁区指称，尊重该局部定义。",
+      "application_scope": "仅在当前文档的对象、配方、地区与语义相符时采用；历史确认不构成全局替换规则。"
+    },
+    {
+      "aliases": [
+        "折金票",
+        "折金券"
+      ],
+      "kind": "alias",
+      "meaning_status": "user-confirmed",
+      "confirmed_at": "2026-10-19",
+      "targets": [
+        {
+          "zh": "折金票",
+          "en": "T-Creds",
+          "item_id": "item_gold",
+          "name_id": "5406428249689377671",
+          "version": "1.6.4@11123848-6",
+          "status": "game-data-paired"
+        }
+      ],
+      "rule": "用户确认是同一货币，统一T-Creds；勿与调度券或烟火钱合并。",
+      "application_scope": "仅在当前文档的对象、配方、地区与语义相符时采用；历史确认不构成全局替换规则。"
+    },
+    {
+      "aliases": [
+        "玉葫芦"
+      ],
+      "kind": "alias",
+      "meaning_status": "user-confirmed",
+      "confirmed_at": "2026-10-19",
+      "targets": [
+        {
+          "zh": "息壤玉葫芦",
+          "en": "Xiranite Jade Gourd",
+          "item_id": "item_activity_xiranite_enr_hulu",
+          "name_id": "7199523894566325105",
+          "version": "1.6.4@11123848-6",
+          "status": "game-data-paired"
+        }
+      ],
+      "rule": "指息壤玉葫芦，不再使用未识别Jade Gourd。",
+      "application_scope": "仅在当前文档的对象、配方、地区与语义相符时采用；历史确认不构成全局替换规则。"
+    },
+    {
+      "aliases": [
+        "紫晶瓶"
+      ],
+      "kind": "alias",
+      "meaning_status": "user-confirmed",
+      "confirmed_at": "2026-10-19",
+      "targets": [
+        {
+          "zh": "紫晶质瓶",
+          "en": "Amethyst Bottle",
+          "item_id": "item_glass_bottle",
+          "name_id": "2915127895210505089",
+          "version": "1.6.4@11123848-6",
+          "status": "game-data-paired"
+        }
+      ],
+      "rule": "指紫晶质瓶；根据原文区分空瓶和装有物料的瓶子。",
+      "application_scope": "仅在当前文档的对象、配方、地区与语义相符时采用；历史确认不构成全局替换规则。"
+    },
+    {
+      "aliases": [
+        "高晶瓶",
+        "晶质瓶"
+      ],
+      "kind": "alias",
+      "meaning_status": "user-confirmed",
+      "confirmed_at": "2026-10-19",
+      "targets": [
+        {
+          "zh": "高晶质瓶",
+          "en": "Cryston Bottle",
+          "item_id": "item_glass_enr_bottle",
+          "name_id": "5818151770159173890",
+          "version": "1.6.4@11123848-6",
+          "status": "game-data-paired"
+        }
+      ],
+      "rule": "用户指晶质瓶这一对象；当前数据规范中文为高晶质瓶，英文Cryston Bottle。保留用户含义与数据写法差异，不改成紫晶质瓶。",
+      "user_meaning": "晶质瓶",
+      "application_scope": "仅在当前文档的对象、配方、地区与语义相符时采用；历史确认不构成全局替换规则。"
+    },
+    {
+      "aliases": [
+        "钢零件",
+        "钢质零件"
+      ],
+      "kind": "alias",
+      "meaning_status": "user-confirmed",
+      "confirmed_at": "2026-10-19",
+      "targets": [
+        {
+          "zh": "钢制零件",
+          "en": "Steel Part",
+          "item_id": "item_iron_enr_cmpt",
+          "name_id": "-3264761163333452544",
+          "version": "1.6.4@11123848-6",
+          "status": "game-data-paired"
+        }
+      ],
+      "rule": "用户指钢质零件这一对象；数据规范中文为钢制零件，英文Steel Part。质/制写法差异不另造物品。",
+      "user_meaning": "钢质零件",
+      "application_scope": "仅在当前文档的对象、配方、地区与语义相符时采用；历史确认不构成全局替换规则。"
+    },
+    {
+      "aliases": [
+        "紫电池"
+      ],
+      "kind": "alias",
+      "meaning_status": "user-confirmed",
+      "confirmed_at": "2026-10-19",
+      "targets": [
+        {
+          "zh": "高容谷地电池",
+          "en": "HC Valley Battery",
+          "item_id": "item_proc_battery_3",
+          "name_id": "2537395868760611370",
+          "version": "1.6.4@11123848-6",
+          "status": "game-data-paired"
+        }
+      ],
+      "rule": "历史谷地语料指高容谷地电池 HC Valley Battery。新文档须核对地区和等级；不能仅凭颜色排除武陵或其他电池。",
+      "application_scope": "仅在当前文档的对象、配方、地区与语义相符时采用；历史确认不构成全局替换规则。"
+    },
+    {
+      "aliases": [
+        "会馆钱"
+      ],
+      "kind": "alias",
+      "meaning_status": "user-confirmed",
+      "confirmed_at": "2026-10-19",
+      "targets": [
+        {
+          "zh": "烟火钱",
+          "en": "Spirit Money",
+          "item_id": "item_inn_gold",
+          "name_id": "1617821802637222465",
+          "version": "1.6.4@11123848-6",
+          "status": "game-data-paired"
+        }
+      ],
+      "rule": "指烟火钱Spirit Money；与T-Creds及Stock Bills/调度券分开。",
+      "application_scope": "仅在当前文档的对象、配方、地区与语义相符时采用；历史确认不构成全局替换规则。"
+    },
+    {
+      "aliases": [
+        "小药"
+      ],
+      "kind": "alias",
+      "meaning_status": "user-confirmed",
+      "confirmed_at": "2026-10-19",
+      "targets": [
+        {
+          "zh": "芽针针剂",
+          "en": "Yazhen Syringe [C]",
+          "item_id": "item_bottled_rec_hp_4",
+          "name_id": "1013991778694932151",
+          "version": "1.6.4@11123848-6",
+          "status": "game-data-paired"
+        },
+        {
+          "zh": "锦草软饮",
+          "en": "Jincao Drink",
+          "item_id": "item_bottled_food_4",
+          "name_id": "-7688363843752898339",
+          "version": "1.6.4@11123848-6",
+          "status": "game-data-paired"
+        }
+      ],
+      "rule": "普通芽针针剂或锦草软饮的类别简称。按植物、配方与地区选择Yazhen Syringe [C]或Jincao Drink；不固定为芽针针剂，不与铜药对应的优质[A]/Jincao Tea混淆。局部只有标题/图且无法区分时保留两个候选。",
+      "requires_context": true,
+      "user_meaning": "普通芽针针剂 / 锦草软饮",
+      "application_scope": "仅在当前文档的对象、配方、地区与语义相符时采用；历史确认不构成全局替换规则。"
+    },
+    {
+      "aliases": [
+        "油菜"
+      ],
+      "kind": "alias",
+      "meaning_status": "user-confirmed",
+      "confirmed_at": "2026-10-19",
+      "targets": [
+        {
+          "zh": "籽油花",
+          "en": "Oilseed Bloom",
+          "item_id": "item_corp_canolaflower_1",
+          "name_id": "-8212693276702792269",
+          "version": "1.6.4@11123848-6",
+          "status": "game-data-paired"
+        }
+      ],
+      "rule": "历史种植语料指籽油花 Oilseed Bloom。当前版本和种植对象一致时使用该名称；其他语料先核实植物，不对普通 rapeseed 作全局替换。",
+      "application_scope": "仅在当前文档的对象、配方、地区与语义相符时采用；历史确认不构成全局替换规则。"
+    },
+    {
+      "aliases": [
+        "土豆苔"
+      ],
+      "kind": "alias",
+      "meaning_status": "user-suggested",
+      "confirmed_at": "2026-10-19",
+      "targets": [
+        {
+          "zh": "平薯叶",
+          "en": "Pingtuber Leaf",
+          "item_id": "item_byproduct_potato_1",
+          "name_id": "-2349787532223769693",
+          "version": "1.6.4@11123848-6",
+          "status": "game-data-paired"
+        }
+      ],
+      "rule": "用户暂定解释为平薯叶Pingtuber Leaf，原话“应该是”，不是确定物品ID的证据。若实际配方/内部ID指粉末，须区分平薯叶粉末Pingtuber Leaf Powder，不静默删除粉碎加工阶段；保留候选并继续按同版配方核对。",
+      "requires_context": true,
+      "user_meaning": "应该是平薯叶",
+      "interpretation_confidence": "tentative",
+      "application_scope": "仅在当前文档的对象、配方、地区与语义相符时采用；历史确认不构成全局替换规则。"
+    },
+    {
+      "aliases": [
+        "豆苔"
+      ],
+      "kind": "alias",
+      "meaning_status": "user-suggested",
+      "confirmed_at": "2026-10-19",
+      "targets": [
+        {
+          "zh": "球豆壳",
+          "en": "Ballpea Pod",
+          "item_id": "item_byproduct_bean_1",
+          "name_id": "1941074428292063155",
+          "version": "1.6.4@11123848-6",
+          "status": "game-data-paired"
+        }
+      ],
+      "rule": "用户暂定解释为球豆壳Ballpea Pod，原话“应该是”，不是确定物品ID的证据。内部item_byproduct_bean_moss_1正式名称为球豆壳粉末Ballpea Pod Powder；依实际配方区分壳与粉末，不凭moss直译苔，也不将两阶段自动合并。",
+      "requires_context": true,
+      "user_meaning": "应该是球豆壳",
+      "interpretation_confidence": "tentative",
+      "application_scope": "仅在当前文档的对象、配方、地区与语义相符时采用；历史确认不构成全局替换规则。"
+    },
+    {
+      "aliases": [
+        "心脏站"
+      ],
+      "kind": "alias",
+      "meaning_status": "user-confirmed",
+      "confirmed_at": "2026-10-19",
+      "targets": [
+        {
+          "zh": "心脏修缮站",
+          "en": "Cardiac Remediation Station",
+          "name_id": "8530199970258623820",
+          "version": "1.6.4@11123848-6",
+          "status": "i18n-data-paired"
+        }
+      ],
+      "rule": "心脏修缮站简称，使用Cardiac Remediation Station，不再译Heart Station。",
+      "application_scope": "仅在当前文档的对象、配方、地区与语义相符时采用；历史确认不构成全局替换规则。"
+    },
+    {
+      "aliases": [
+        "双口"
+      ],
+      "kind": "alias",
+      "meaning_status": "user-confirmed",
+      "confirmed_at": "2026-10-19",
+      "targets": [
+        {
+          "zh": "两个存货口输入",
+          "en": "two Depot Loader inputs",
+          "status": "contextual-description-user-confirmed"
+        }
+      ],
+      "rule": "当当前段落明确将“双口”定义为两个存货口输入时，可译为 two Depot Loader inputs；它不是固定设备名。计数按原文限定，不将结构数量、设备数量与端口总数混为一谈；Depot Loader 指输入仓库，方向另按当前系统边界核对。没有明确定义时保留歧义，不从历史方案推断。",
+      "requires_context": true,
+      "application_scope": "仅在当前文档的对象、配方、地区与语义相符时采用；历史确认不构成全局替换规则。"
+    },
+    {
+      "aliases": [
+        "集成实训装备"
+      ],
+      "kind": "alias",
+      "meaning_status": "user-confirmed",
+      "confirmed_at": "2026-10-19",
+      "targets": [
+        {
+          "zh": "集成实训",
+          "en": "AIC Fieldwork",
+          "name_id": "4545517051165535353",
+          "version": "1.6.4@11123848-6",
+          "status": "i18n-data-paired"
+        }
+      ],
+      "rule": "用户确认是实际装备类别，采用AIC Fieldwork gear；不是泛指integrated practical-training equipment。原文为完整“集成实训装备组”时用已配对AIC Fieldwork Gear Pack；具体钢甲/护手等继续查各自名称，不把全类别当作一件装备。",
+      "application_scope": "仅在当前文档的对象、配方、地区与语义相符时采用；历史确认不构成全局替换规则。"
+    },
+    {
+      "aliases": [
+        "自动收割机"
+      ],
+      "kind": "alias",
+      "meaning_status": "user-confirmed",
+      "confirmed_at": "2026-10-19",
+      "targets": [
+        {
+          "zh": "自动收割机",
+          "en": "automatic harvester",
+          "status": "provisional-english-device-name"
+        }
+      ],
+      "rule": "用户确认是具体游戏设备，不是玩家搭建的自动收获结构。当前同版本本地化尚未定位该中文设备名的精确CN/EN配对，automatic harvester仅暂译；不能仅凭Auto-Harvest功能文字擅自改成Auto-Farmer，也不能再称设备身份不明。",
+      "application_scope": "仅在当前文档的对象、配方、地区与语义相符时采用；历史确认不构成全局替换规则。"
+    }
+  ]
+}
