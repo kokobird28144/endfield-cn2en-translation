@@ -12,11 +12,13 @@ from typing import Any
 
 FILENAMES = {
     "game": "game-terms.csv",
+    "names": "name-index.json",
     "aliases": "community-aliases.json",
     "official": "official-names.json",
 }
 CSV_COLUMNS = {"category", "zh", "en", "aliases_zh", "item_id", "name_id",
                "version", "status", "notes"}
+NAME_FIELDS = ("name_id", "zh", "en", "status")
 Record = dict[str, Any]
 
 
@@ -85,11 +87,38 @@ def load_json(path: Path, scope: str) -> list[Record]:
     return records
 
 
+def load_names(path: Path) -> list[Record]:
+    with path.open(encoding="utf-8-sig") as stream:
+        data = json.load(stream)
+    if not isinstance(data, dict) or not isinstance(data.get("records"), list):
+        raise DataError("JSON root must be an object containing a records array")
+    if data.get("schema_version") != 1:
+        raise DataError("unsupported name index schema_version")
+    records = data["records"]
+    for number, record in enumerate(records, 1):
+        if not isinstance(record, dict):
+            raise DataError(f"record {number} must be an object")
+        text_fields(record, NAME_FIELDS)
+        entities = record.get("entities")
+        if not isinstance(entities, list) or not entities:
+            raise DataError(f"record {number}: entities must be a non-empty array")
+        for entity in entities:
+            if not isinstance(entity, dict):
+                raise DataError(f"record {number}: each entity must be an object")
+            text_fields(entity, ("id", "table", "category"))
+    return records
+
+
 def search_fields(record: Record, scope: str) -> list[str]:
     if scope == "aliases":
         fields = [*record["aliases"], record.get("user_meaning", "")]
         for target in record["targets"]:
             fields.extend(target.get(key, "") for key in ("zh", "en", "item_id", "name_id"))
+        return fields
+    if scope == "names":
+        fields = [record.get(key, "") for key in ("zh", "en", "name_id")]
+        for entity in record["entities"]:
+            fields.extend(entity.get(key, "") for key in ("id", "table", "category"))
         return fields
     fields = [record.get(key, "") for key in ("zh", "en", "item_id", "name_id")]
     if scope == "game":
@@ -113,7 +142,12 @@ def lookup(data_dir: Path, query: str, scope: str, exact: bool,
             print(message, file=sys.stderr)
             continue
         try:
-            rows = load_game(path) if selected == "game" else load_json(path, selected)
+            if selected == "game":
+                rows = load_game(path)
+            elif selected == "names":
+                rows = load_names(path)
+            else:
+                rows = load_json(path, selected)
         except (OSError, UnicodeError, csv.Error, ValueError) as error:
             raise DataError(f"Cannot read {path}: {error}") from error
         loaded += 1
@@ -124,6 +158,8 @@ def lookup(data_dir: Path, query: str, scope: str, exact: bool,
             if selected == "aliases":
                 source = ("user-confirmed-alias" if record["meaning_status"] == "user-confirmed"
                           else "user-suggested-alias")
+            elif selected == "names":
+                source = "game-name-index"
             else:
                 source = "game" if selected == "game" else "verified-name"
             matches.append({**record, "record_source": source})
@@ -136,6 +172,16 @@ def print_records(records: list[Record]) -> None:
     if not records:
         print("No matching term in the supplied data.")
     for record in records:
+        if record["record_source"] == "game-name-index":
+            entities = record["entities"]
+            categories = "/".join(sorted({entity["category"] for entity in entities}))
+            print(f"{record['zh']} | {record['en']} | name_id={record['name_id']} | "
+                  f"{categories} | {len(entities)} {'entity' if len(entities) == 1 else 'entities'}")
+            for entity in entities[:5]:
+                print(f"  {entity['id']} ({entity['table']})")
+            if len(entities) > 5:
+                print(f"  ... {len(entities) - 5} more")
+            continue
         if record["record_source"] in ("user-confirmed-alias", "user-suggested-alias"):
             targets = " / ".join(f"{target['zh']} → {target['en']}" for target in record["targets"])
             print(f"{'、'.join(record['aliases'])} | {targets}")

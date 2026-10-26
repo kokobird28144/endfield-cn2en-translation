@@ -1,0 +1,82 @@
+{
+  "dataset": "name-index",
+  "version": "1.6.4@11262943-8",
+  "generated_at": "2026-10-27",
+  "builder": "scripts/build_name_index.py",
+  "project": "https://github.com/NagiYume/AKEDatabase",
+  "manifest_url": "https://data.akedata.wiki/manifest.json",
+  "table_cfg_path": "public/1.6.4/11262943-8/TableCfg",
+  "method": "For each table row, resolve the name text id and pair I18nTextTable_CN with I18nTextTable_EN; keep names only, never descriptions or dialogue. 64-bit ids stay strings.",
+  "tables": [
+    "ItemTable",
+    "FactoryBuildingTable",
+    "CharacterTable",
+    "EnemyTemplateDisplayInfoTable",
+    "DungeonSeriesTable",
+    "ActivityTable",
+    "ItemTypeTable"
+  ],
+  "counts": {
+    "records": 3290,
+    "entities": 3685,
+    "zh": 2534,
+    "en": 2532
+  },
+  "skipped_entities_without_text": 96,
+  "files": [
+    {
+      "name": "ActivityTable.json",
+      "url": "https://data.akedata.wiki/public/1.6.4/11262943-8/TableCfg/ActivityTable.json",
+      "bytes": 182828,
+      "sha256": "75f4108e026069e125c4611b7f22c9f8578d307846d2560f3f91f0c59045f78b"
+    },
+    {
+      "name": "CharacterTable.json",
+      "url": "https://data.akedata.wiki/public/1.6.4/11262943-8/TableCfg/CharacterTable.json",
+      "bytes": 10978089,
+      "sha256": "9d8a1d8036a833c8f8cd47039b155422c9ab48a18b84270f68d03bdd8516dde6"
+    },
+    {
+      "name": "DungeonSeriesTable.json",
+      "url": "https://data.akedata.wiki/public/1.6.4/11262943-8/TableCfg/DungeonSeriesTable.json",
+      "bytes": 82630,
+      "sha256": "0a465f8c10bbb30308623462cdac32e1ea0a850abddd0d94d56c0c5071950ce8"
+    },
+    {
+      "name": "EnemyTemplateDisplayInfoTable.json",
+      "url": "https://data.akedata.wiki/public/1.6.4/11262943-8/TableCfg/EnemyTemplateDisplayInfoTable.json",
+      "bytes": 52034,
+      "sha256": "e2da39766f3d744d09f2e367f5f9835f76776f6d2e7e36253e599ba9a3299a24"
+    },
+    {
+      "name": "FactoryBuildingTable.json",
+      "url": "https://data.akedata.wiki/public/1.6.4/11262943-8/TableCfg/FactoryBuildingTable.json",
+      "bytes": 276793,
+      "sha256": "469b8054bbc32f80d2c4e4fd1f94650b9cfb96533b6707fa01a2226d2432f618"
+    },
+    {
+      "name": "I18nTextTable_CN.json",
+      "url": "https://data.akedata.wiki/public/1.6.4/11262943-8/TableCfg/I18nTextTable_CN.json",
+      "bytes": 13059654,
+      "sha256": "84bc67165390c0bb89feb108cbf725ed4921c176bd197e5595a7042cbdf5cf52"
+    },
+    {
+      "name": "I18nTextTable_EN.json",
+      "url": "https://data.akedata.wiki/public/1.6.4/11262943-8/TableCfg/I18nTextTable_EN.json",
+      "bytes": 14243687,
+      "sha256": "042bec719968ea0baf97169e5f4e5c7719e732c4a1574320566dd8453a5d727f"
+    },
+    {
+      "name": "ItemTable.json",
+      "url": "https://data.akedata.wiki/public/1.6.4/11262943-8/TableCfg/ItemTable.json",
+      "bytes": 3051649,
+      "sha256": "f1bc4576941eeee90fd33413a397c2855266369a2c7acf55dc828f414558d494"
+    },
+    {
+      "name": "ItemTypeTable.json",
+      "url": "https://data.akedata.wiki/public/1.6.4/11262943-8/TableCfg/ItemTypeTable.json",
+      "bytes": 36070,
+      "sha256": "60955e9ca386e18c5758066b19fe51033f9b93a415d40a62b2a3ca0fcadc3ae3"
+    }
+  ]
+}

@@ -15,13 +15,14 @@
 | 内容 | 范围 |
 | --- | --- |
 | [游戏名称配对](skills/endfield-cn2en-translation/references/game-terms.md) | 309 条分版本中英名称记录，附 CSV 主表 |
+| [完整名称索引](skills/endfield-cn2en-translation/references/name-index.json) | 3,290 个文本 ID、3,685 个实体，覆盖物品、设施、角色、敌人、副本、活动与物品分类 |
 | [真实别名](skills/endfield-cn2en-translation/references/community-aliases.md) | 22 组别名、简称、笔误与候选；保留确认/暂定差别 |
 | [玩家黑话](skills/endfield-cn2en-translation/references/community-slang.md) | 22 条基建、抄作业、暗管、爆仓、设备睡觉等用语 |
 | [生产机制术语](skills/endfield-cn2en-translation/references/production-terms.md) | 107 条生产、阻塞、缓存、时序、模型及均匀性条目 |
 | [正式名称](skills/endfield-cn2en-translation/references/official-names.md) | 27 条游戏版本、地名、界面和装备类别名称 |
 | [界面补充](skills/endfield-cn2en-translation/references/interface-terms-1.6.4.json) | 25 条 1.6.4 界面及话题名称 |
 
-配对覆盖版本 `1.5.3@10024360-6`（143 条）和 `1.6.4@11123848-6`（166 条）。来源与哈希见 [来源说明](skills/endfield-cn2en-translation/references/sources.md)。翻译时核对目标游戏版本；别名、笔误和候选含义须结合当前语境判断。
+配对覆盖版本 `1.5.3@10024360-6`（143 条）和 `1.6.4@11123848-6`（166 条）；完整名称索引取 `1.6.4@11262943-8`，只收名称、不含对白与说明。来源与哈希见 [来源说明](skills/endfield-cn2en-translation/references/sources.md)。翻译时核对目标游戏版本；别名、笔误和候选含义须结合当前语境判断。
 
 ### 安装
 
@@ -90,13 +91,14 @@ This repository provides a translation workflow, terminology references, and an 
 | Resource | Coverage |
 | --- | --- |
 | [Game-name pairs](skills/endfield-cn2en-translation/references/game-terms.md) | 309 versioned Chinese–English name records, with a CSV master table |
+| [Full name index](skills/endfield-cn2en-translation/references/name-index.json) | 3,290 text IDs and 3,685 entities across items, facilities, operators, enemies, dungeons, activities, and item categories |
 | [Player aliases](skills/endfield-cn2en-translation/references/community-aliases.md) | 22 groups of aliases, shorthand, typos, and candidate meanings; confirmed and tentative interpretations remain distinct |
 | [Community slang](skills/endfield-cn2en-translation/references/community-slang.md) | 22 entries covering factory setups, copying builds, underground pipes, full storage, idle machines, and more |
 | [Production and logistics terminology](skills/endfield-cn2en-translation/references/production-terms.md) | 107 entries covering production, blocking, buffers, timing, models, and uniformity |
 | [Verified names](skills/endfield-cn2en-translation/references/official-names.md) | 27 game-version, location, interface, and gear-category names |
 | [Supplemental interface names](skills/endfield-cn2en-translation/references/interface-terms-1.6.4.json) | 25 interface and topic names from version 1.6.4 |
 
-Name pairs cover versions `1.5.3@10024360-6` (143 records) and `1.6.4@11123848-6` (166 records). See [Sources](skills/endfield-cn2en-translation/references/sources.md) for provenance and hashes. Check the target game version when translating, and interpret aliases, typos, and candidate meanings in the current context.
+Name pairs cover versions `1.5.3@10024360-6` (143 records) and `1.6.4@11123848-6` (166 records); the full name index uses `1.6.4@11262943-8` and contains names only. See [Sources](skills/endfield-cn2en-translation/references/sources.md) for provenance and hashes. Check the target game version when translating, and interpret aliases, typos, and candidate meanings in the current context.
 
 ### Installation
 

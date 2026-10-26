@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "license": "MIT",
   "edition": "general-translation-with-terminology",
   "files": [
@@ -10,6 +10,7 @@
     "README.md",
     "examples/data/community-aliases.json",
     "examples/data/game-terms.csv",
+    "examples/data/name-index.json",
     "examples/data/official-names.json",
     "release-manifest.json",
     "skills/endfield-cn2en-translation/LICENSE",
@@ -27,12 +28,15 @@
     "skills/endfield-cn2en-translation/references/game-terms.csv",
     "skills/endfield-cn2en-translation/references/game-terms.md",
     "skills/endfield-cn2en-translation/references/interface-terms-1.6.4.json",
+    "skills/endfield-cn2en-translation/references/name-index.json",
+    "skills/endfield-cn2en-translation/references/data-provenance-name-index.json",
     "skills/endfield-cn2en-translation/references/official-names.json",
     "skills/endfield-cn2en-translation/references/official-names.md",
     "skills/endfield-cn2en-translation/references/production-terms.md",
     "skills/endfield-cn2en-translation/references/project-adapter.md",
     "skills/endfield-cn2en-translation/references/sources.md",
     "skills/endfield-cn2en-translation/references/translation-guide.md",
+    "skills/endfield-cn2en-translation/scripts/build_name_index.py",
     "skills/endfield-cn2en-translation/scripts/lookup_terms.py",
     "tests/test_lookup_terms.py",
     "tools/check_release.py"
@@ -44,6 +48,9 @@
       "1.5.3@10024360-6": 143,
       "1.6.4@11123848-6": 166
     },
+    "name_index_version": "1.6.4@11262943-8",
+    "name_index_records": 3290,
+    "name_index_entities": 3685,
     "alias_records": 22,
     "official_records": 27,
     "interface_records": 25,

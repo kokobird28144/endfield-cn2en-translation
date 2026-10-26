@@ -61,7 +61,7 @@ class LookupTests(unittest.TestCase):
     def test_all_scopes(self) -> None:
         rows = self.parse_success(self.example("Demo", "--scope", "all"))
         self.assertEqual({r["record_source"] for r in rows},
-                         {"game", "verified-name", "user-suggested-alias"})
+                         {"game", "verified-name", "user-suggested-alias", "game-name-index"})
 
     def test_no_match_is_empty_array(self) -> None:
         self.assertEqual(self.parse_success(self.example("unmatched-test-term")), [])
@@ -119,6 +119,56 @@ class LookupTests(unittest.TestCase):
             result = self.run_cli("小样", "--scope", "all", "--data-dir", temp, "--json")
             self.assertEqual(len(self.parse_success(result)), 1)
             self.assertIn("Missing local data", result.stderr)
+
+    def test_bundled_name_index_text_id(self) -> None:
+        result = self.run_cli("壤晶", "--scope", "names", "--exact", "--json")
+        rows = self.parse_success(result)
+        self.assertTrue(rows)
+        self.assertTrue(all(row["record_source"] == "game-name-index" for row in rows))
+        self.assertTrue(all(row["en"] == "Xircon" for row in rows))
+        self.assertTrue(all(row["name_id"] for row in rows))
+        self.assertEqual(result.stderr, "")
+
+    def test_bundled_name_index_keeps_multiple_translations(self) -> None:
+        rows = self.parse_success(self.run_cli("管理员", "--scope", "names", "--exact", "--json"))
+        english = {row["en"] for row in rows}
+        self.assertIn("Endministrator", english)
+        self.assertIn("The Endministrator", english)
+        self.assertEqual(len({row["name_id"] for row in rows}), len(rows))
+
+    def test_bundled_name_index_entity_id(self) -> None:
+        rows = self.parse_success(self.run_cli("chr_0002_endminm", "--scope", "names",
+                                               "--exact", "--json"))
+        self.assertGreaterEqual(len(rows), 2)
+        for row in rows:
+            self.assertTrue(any(entity["id"] == "chr_0002_endminm" for entity in row["entities"]))
+
+    def test_name_index_missing_file_is_error(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            result = self.run_cli("壤晶", "--scope", "names", "--data-dir", temp, "--json")
+            self.assertEqual(result.returncode, 2)
+            self.assertIn("Missing local data", result.stderr)
+
+    def test_example_name_index(self) -> None:
+        rows = self.parse_success(self.example("Demo Ore", "--scope", "names", "--exact"))
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]["record_source"], "game-name-index")
+        self.assertEqual(len(rows[0]["entities"]), 2)
+
+    def test_name_index_validation(self) -> None:
+        cases = (
+            '{"records": []}',
+            '{"schema_version": 1, "records": [{"name_id": "1", "zh": "a", "en": "b", "status": "s"}]}',
+            '{"schema_version": 1, "records": [{"name_id": 1, "zh": "a", "en": "b", "status": "s",'
+            ' "entities": [{"id": "x", "table": "t", "category": "c"}]}]}',
+        )
+        for content in cases:
+            with self.subTest(content=content), tempfile.TemporaryDirectory() as temp:
+                (Path(temp) / "name-index.json").write_text(content, encoding="utf-8")
+                result = self.run_cli("a", "--scope", "names", "--data-dir", temp, "--json")
+                self.assertEqual(result.returncode, 2)
+                self.assertNotIn("Traceback", result.stderr)
+                self.assertEqual(result.stdout, "")
 
     def test_standalone_bundled_data_without_original_project(self) -> None:
         with tempfile.TemporaryDirectory() as temp:

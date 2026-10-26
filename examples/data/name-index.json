@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "dataset": "name-index",
+  "version": "0.0.0-example",
+  "generated_at": "2026-01-01",
+  "source": {
+    "manifest": "https://example.invalid/manifest.json",
+    "project": "https://example.invalid/project",
+    "method": "fictional example only",
+    "tables": [
+      "ExampleTable"
+    ]
+  },
+  "counts": {
+    "records": 2,
+    "entities": 3,
+    "zh": 2,
+    "en": 2
+  },
+  "records": [
+    {
+      "name_id": "9223372036854775806",
+      "zh": "演示矿",
+      "en": "Demo Ore",
+      "status": "fictional-example",
+      "entities": [
+        {
+          "id": "demo_ore",
+          "table": "ExampleTable",
+          "category": "物品与物料"
+        },
+        {
+          "id": "demo_ore_copy",
+          "table": "ExampleTable",
+          "category": "物品与物料"
+        }
+      ]
+    },
+    {
+      "name_id": "9223372036854775805",
+      "zh": "演示站",
+      "en": "Demo Hub",
+      "status": "fictional-example",
+      "entities": [
+        {
+          "id": "demo_hub",
+          "table": "ExampleTable",
+          "category": "设施与物流部件"
+        }
+      ]
+    }
+  ]
+}

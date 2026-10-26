@@ -102,11 +102,32 @@ def main() -> int:
         aliases = json.loads((refs / "community-aliases.json").read_text(encoding="utf-8"))["records"]
         official = json.loads((refs / "official-names.json").read_text(encoding="utf-8"))["records"]
         interface = json.loads((refs / "interface-terms-1.6.4.json").read_text(encoding="utf-8"))
+        name_index = json.loads((refs / "name-index.json").read_text(encoding="utf-8"))
         sizes = {"game_records": len(game), "alias_records": len(aliases),
-                 "official_records": len(official), "interface_records": len(interface)}
+                 "official_records": len(official), "interface_records": len(interface),
+                 "name_index_records": len(name_index["records"]),
+                 "name_index_entities": sum(len(record["entities"])
+                                            for record in name_index["records"])}
         for key, value in sizes.items():
             if bundled.get(key) != value:
                 errors.append(f"bundled count mismatch: {key}: {value}")
+        if name_index.get("schema_version") != 1:
+            errors.append("name index schema_version mismatch")
+        if name_index.get("version") != bundled.get("name_index_version"):
+            errors.append("name index version mismatch")
+        seen_ids = set()
+        for record in name_index["records"]:
+            if not all(isinstance(record.get(key), str) and record[key].strip()
+                       for key in ("name_id", "zh", "en", "status")):
+                errors.append("name index record missing name, text or status")
+                continue
+            if not re.fullmatch(r"-?[0-9]+", record["name_id"]):
+                errors.append("name index name_id is not an integer string")
+            if record["name_id"] in seen_ids:
+                errors.append(f"duplicate name index id: {record['name_id']}")
+            seen_ids.add(record["name_id"])
+            if not record.get("entities"):
+                errors.append(f"name index record without entities: {record['name_id']}")
         versions = {version: sum(row["version"] == version for row in game)
                     for version in {row["version"] for row in game}}
         if versions != bundled.get("game_versions"):

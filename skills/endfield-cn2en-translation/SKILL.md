@@ -12,7 +12,7 @@ license: MIT
 
 1. 读取目标文档及必要的相邻定义，确定翻译方向、版本和输出位置。未指定方向时从原文语言推断。
 2. 读取 [翻译规范](references/translation-guide.md)，列出本次的名称、简称及作者自定义词。任务提供项目规则时，再按 [项目适配说明](references/project-adapter.md) 处理。
-3. 按下方资源表查询内置词库，再用当前语境核对候选含义。可运行 `python scripts/lookup_terms.py QUERY --scope all --json`，路径相对于本 skill 目录；自备词表另用 `--data-dir PATH`，格式见 [数据说明](references/data-format.md)。查询结果保留历史版本和证据状态，不视为当前版本已重新核验。
+3. 按下方资源表查询内置词库，再用当前语境核对候选含义。可运行 `python scripts/lookup_terms.py QUERY --scope all --json`，路径相对于本 skill 目录；`--scope names` 查完整名称索引，可按中文、英文、文本 ID 或实体 ID 命中。自备词表另用 `--data-dir PATH`，格式见 [数据说明](references/data-format.md)。查询结果保留历史版本和证据状态，不视为当前版本已重新核验。
 4. 按原有结构翻译，保留原文的条件、公式、数值精度、不等号、配方系数、变量、蓝图码和版本限定。翻译链接可见文字，保持资源 URL、文件 ID 与 HTML 属性。
 5. 处理列表时保留编号文字、起始值、连续/重启关系和嵌套层级。Markdown 的普通 `1.` 列表不能表达字母或 `2.1` 这样的层级编号；遇到 `a.`–`e.`、`I.`–`V.` 或 `2.1`–`2.2` 时，使用带 `type`/`start` 的 HTML `<ol>`、嵌套列表或显式编号标签，不能把它们改成连续的 `1.`，也不能把缩进层级压平。
 6. 对代码围栏逐行判断内容。保留关键字、变量、函数名、路径、ID、蓝图码、正则、公式和会影响执行的字符串；翻译面向读者的注释、帮助文本、错误消息、示例输入输出和伪代码说明，并保持语法有效。若必须保留中文代码块或原文摘录，紧邻代码块提供完整英文说明，不能把整段围栏默认视为不可翻译。
@@ -24,6 +24,7 @@ license: MIT
 | 资源 | 使用场景 |
 | --- | --- |
 | [游戏名称配对](references/game-terms.md) / [CSV 主表](references/game-terms.csv) | 309 条物品、物料与设施的分版本中英名称配对 |
+| [完整名称索引](references/name-index.json) | 3,290 个文本 ID、3,685 个实体；物品、设施、角色、敌人、副本、活动、分类，仅收名称 |
 | [真实别名表](references/community-aliases.md) / [JSON 主表](references/community-aliases.json) | 22 组历史别名、简称、笔误和候选，按当前上下文使用 |
 | [玩家黑话表](references/community-slang.md) | 基建、抄作业、爆仓、设备睡觉等用语与建议译法 |
 | [生产机制术语表](references/production-terms.md) | 流量、阻塞、配平、缓存、离散时序、理想模型与均匀性 |
@@ -31,7 +32,7 @@ license: MIT
 | [界面补充名称](references/interface-terms-1.6.4.json) | 25 条 1.6.4 界面及话题名称；供直接查阅 |
 | [来源与版本](references/sources.md) | 配对方法、数据版本、哈希与使用限制 |
 
-游戏版本为 `1.5.3@10024360-6` 和 `1.6.4@11123848-6`；翻译时核对目标版本。机制表中的背景编号见 [主题索引](references/corpus-map.md)。
+游戏版本为 `1.5.3@10024360-6`、`1.6.4@11123848-6`，名称索引为 `1.6.4@11262943-8`；翻译时核对目标版本。名称索引与 309 条词表同源，覆盖更广但不替代词表中的证据状态与语境说明。机制表中的背景编号见 [主题索引](references/corpus-map.md)。
 
 ## 证据与术语层级
 
