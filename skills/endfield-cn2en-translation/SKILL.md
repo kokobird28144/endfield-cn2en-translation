@@ -25,7 +25,7 @@ license: MIT
 | --- | --- |
 | [游戏名称配对](references/game-terms.md) / [CSV 主表](references/game-terms.csv) | 309 条物品、物料与设施的分版本中英名称配对 |
 | [完整名称索引](references/name-index.json) | 3,290 个文本 ID、3,685 个实体；物品、设施、角色、敌人、副本、活动、分类，仅收名称 |
-| [真实别名表](references/community-aliases.md) / [JSON 主表](references/community-aliases.json) | 22 组历史别名、简称、笔误和候选，按当前上下文使用 |
+| [真实别名表](references/community-aliases.md) / [JSON 主表](references/community-aliases.json) | 23 组别名、简称、笔误和候选，按当前上下文使用 |
 | [玩家黑话表](references/community-slang.md) | 基建、抄作业、爆仓、设备睡觉等用语与建议译法 |
 | [生产机制术语表](references/production-terms.md) | 流量、阻塞、配平、缓存、离散时序、理想模型与均匀性 |
 | [正式名称](references/official-names.md) / [JSON 主表](references/official-names.json) | 27 条游戏版本、地名、界面和装备类别记录 |
@@ -37,7 +37,7 @@ license: MIT
 ## 证据与术语层级
 
 - **游戏名称**：优先采用同版本、同实体 ID 或可核验官方材料中的双语配对；注明来源版本。社区镜像是数据来源，不等于发行商直接发布。
-- **项目确认别名**：按用户对当前项目语义的确认处理，保留作用范围；不能将确认的含义升级为官方命名。
+- **项目确认别名**：按用户对当前项目语义的确认处理，保留作用范围；不能将确认的含义升级为官方命名。例如“气体氛围机”已确认为气体散布机别名，英译采用目标设备的已有配对名称 Gas Dispersing Unit；别名证据单独保存在别名表。
 - **社区用语**：记录实际语境与候选译法。颜色、简称或单篇标题不足以确定唯一物品。
 - **作者自定义词**：优先服从当前章节的定义，首现可附中文；不推广到其他文档。
 

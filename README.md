@@ -16,7 +16,7 @@
 | --- | --- |
 | [游戏名称配对](skills/endfield-cn2en-translation/references/game-terms.md) | 309 条分版本中英名称记录，附 CSV 主表 |
 | [完整名称索引](skills/endfield-cn2en-translation/references/name-index.json) | 3,290 个文本 ID、3,685 个实体，覆盖物品、设施、角色、敌人、副本、活动与物品分类 |
-| [真实别名](skills/endfield-cn2en-translation/references/community-aliases.md) | 22 组别名、简称、笔误与候选；保留确认/暂定差别 |
+| [真实别名](skills/endfield-cn2en-translation/references/community-aliases.md) | 23 组别名、简称、笔误与候选；保留确认/暂定差别 |
 | [玩家黑话](skills/endfield-cn2en-translation/references/community-slang.md) | 22 条基建、抄作业、暗管、爆仓、设备睡觉等用语 |
 | [生产机制术语](skills/endfield-cn2en-translation/references/production-terms.md) | 107 条生产、阻塞、缓存、时序、模型及均匀性条目 |
 | [正式名称](skills/endfield-cn2en-translation/references/official-names.md) | 27 条游戏版本、地名、界面和装备类别名称 |
@@ -92,7 +92,7 @@ This repository provides a translation workflow, terminology references, and an 
 | --- | --- |
 | [Game-name pairs](skills/endfield-cn2en-translation/references/game-terms.md) | 309 versioned Chinese–English name records, with a CSV master table |
 | [Full name index](skills/endfield-cn2en-translation/references/name-index.json) | 3,290 text IDs and 3,685 entities across items, facilities, operators, enemies, dungeons, activities, and item categories |
-| [Player aliases](skills/endfield-cn2en-translation/references/community-aliases.md) | 22 groups of aliases, shorthand, typos, and candidate meanings; confirmed and tentative interpretations remain distinct |
+| [Player aliases](skills/endfield-cn2en-translation/references/community-aliases.md) | 23 groups of aliases, shorthand, typos, and candidate meanings; confirmed and tentative interpretations remain distinct |
 | [Community slang](skills/endfield-cn2en-translation/references/community-slang.md) | 22 entries covering factory setups, copying builds, underground pipes, full storage, idle machines, and more |
 | [Production and logistics terminology](skills/endfield-cn2en-translation/references/production-terms.md) | 107 entries covering production, blocking, buffers, timing, models, and uniformity |
 | [Verified names](skills/endfield-cn2en-translation/references/official-names.md) | 27 game-version, location, interface, and gear-category names |

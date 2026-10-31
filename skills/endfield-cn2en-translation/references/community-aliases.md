@@ -1,6 +1,6 @@
 # 玩家别名、简称与原文笔误
 
-保留原词表的 22 组别名/笔误和历史确认状态。历史核定日期为 2026-10-19；本发布版整理不等于重新核验当前游戏版本。结构化主表见 [community-aliases.json](community-aliases.json)。
+收录 23 组别名/笔误与候选，保留确认和暂定状态。核定记录包括 2026-10-19 和 2026-10-31；本发布版整理不等于重新核验当前游戏版本。结构化主表见 [community-aliases.json](community-aliases.json)。
 
 **通用使用边界**：历史用户确认只证明原语料中的读法。新文档须核对地区、配方、设备方向和局部定义；暂定、多候选与笔误条目不进行全局替换。
 
@@ -28,5 +28,6 @@
 | 双口 | 两个存货口输入 → two Depot Loader inputs | 历史确认 | 当当前段落明确将“双口”定义为两个存货口输入时，可译为 two Depot Loader inputs；它不是固定设备名。计数按原文限定，不将结构数量、设备数量与端口总数混为一谈；Depot Loader 指输入仓库，方向另按当前系统边界核对。没有明确定义时保留歧义，不从历史方案推断。 |
 | 集成实训装备 | 集成实训 → AIC Fieldwork | 历史确认 | 用户确认是实际装备类别，采用AIC Fieldwork gear；不是泛指integrated practical-training equipment。原文为完整“集成实训装备组”时用已配对AIC Fieldwork Gear Pack；具体钢甲/护手等继续查各自名称，不把全类别当作一件装备。 |
 | 自动收割机 | 自动收割机 → automatic harvester | 历史确认 | 用户确认是具体游戏设备，不是玩家搭建的自动收获结构。当前同版本本地化尚未定位该中文设备名的精确CN/EN配对，automatic harvester仅暂译；不能仅凭Auto-Harvest功能文字擅自改成Auto-Farmer，也不能再称设备身份不明。 |
+| 气体氛围机 | 气体散布机 → Gas Dispersing Unit | 2026-10-31 用户确认 | 指气体散布机的别名；英文使用已有同 ID 配对名称 Gas Dispersing Unit，不再使用 Gas Atmosphere Unit 暂译。保留中文原文别名，不把别名写成官方中文名称；在其他文档中仍核对指代对象。 |
 
 查询名称时另见 [游戏词表](game-terms.md) 与 [正式名称](official-names.md)。确认别名的指代不等于取得其名称的官方证据；正式英文未配对的条目仍保留暂译。

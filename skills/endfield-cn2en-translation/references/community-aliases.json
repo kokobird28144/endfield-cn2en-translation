@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "scope": "终末地工业、生产与物流文档；历史语料中的别名候选，迁移到新文档必须重新核对上下文",
-  "source": "user-clarification-2026-10-19",
-  "updated_at": "2026-10-19",
+  "source": "user-clarifications-2026-10-19-and-2026-10-31",
+  "updated_at": "2026-10-31",
   "policy": "保留历史用户确认和暂定状态，不将局部语义确认为所有作者的通用用法。官方英文配对与别名指代是不同证据；多个候选按地区、配方与工序判断。",
   "records": [
     {
@@ -467,6 +467,26 @@
       ],
       "rule": "用户确认是具体游戏设备，不是玩家搭建的自动收获结构。当前同版本本地化尚未定位该中文设备名的精确CN/EN配对，automatic harvester仅暂译；不能仅凭Auto-Harvest功能文字擅自改成Auto-Farmer，也不能再称设备身份不明。",
       "application_scope": "仅在当前文档的对象、配方、地区与语义相符时采用；历史确认不构成全局替换规则。"
+    },
+    {
+      "aliases": [
+        "气体氛围机"
+      ],
+      "kind": "alias",
+      "meaning_status": "user-confirmed",
+      "confirmed_at": "2026-10-31",
+      "targets": [
+        {
+          "zh": "气体散布机",
+          "en": "Gas Dispersing Unit",
+          "item_id": "item_port_vaporizer_1",
+          "name_id": "-371063026712602101",
+          "version": "1.5.3@10024360-6",
+          "status": "game-data-paired"
+        }
+      ],
+      "rule": "用户确认“气体氛围机”是气体散布机的别名。英译使用已有同ID本地化名称 Gas Dispersing Unit，移除 Gas Atmosphere Unit 暂译与身份未明说明；中文源保留作者别名，不把别名添加为官方中文名称。",
+      "application_scope": "仅在当前文档指代同一设备时采用；别名含义来自用户确认，正式英文来自目标设备的同 ID 数据配对，不能把别名升级为官方中文名称。"
     }
   ]
 }
